@@ -1,0 +1,20 @@
+# 怪物猎人配装器 - AstrBot 插件配置
+
+# 默认返回 Top N 个方案
+top_n: 3
+
+# 排序方式：balanced（综合）/ defense（防御优先）/ slots（剩余孔位优先）
+sort_mode: balanced
+
+# 搜索时间上限（毫秒）
+time_limit_ms: 4000
+
+# 最低稀有度（1-9，9+ 基本为大师装备）
+min_rarity: 1
+
+# 管理员 QQ（错误通知）
+# 留空则不通知
+admin_qq: "1793789145"
+
+# Playwright 截图超时（毫秒）
+playwright_timeout: 30000

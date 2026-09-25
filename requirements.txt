@@ -1,0 +1,8 @@
+# 怪物猎人配装器 - AstrBot 插件依赖
+
+# 核心依赖
+playwright>=1.40.0
+
+# 可选依赖（用于配置解析）
+# yaml 未安装时会自动 fallback 到 json
+# pyyaml>=6.0

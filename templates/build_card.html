@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>怪物猎人配装 - {{INDEX}}</title>
+    <style>
+        body {
+            font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #e0e0e0;
+            margin: 0;
+            padding: 20px;
+            min-width: 400px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e94560;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #e94560;
+        }
+        .header .index {
+            font-size: 14px;
+            color: #888;
+        }
+        .metrics {
+            display: flex;
+            justify-content: space-around;
+            background: rgba(255,255,255,0.05);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .metric {
+            text-align: center;
+        }
+        .metric .value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #0f3460;
+            background: #e94560;
+            padding: 5px 15px;
+            border-radius: 4px;
+        }
+        .metric .label {
+            font-size: 12px;
+            color: #888;
+            margin-top: 5px;
+        }
+        .armor-list {
+            margin-bottom: 15px;
+        }
+        .piece {
+            background: rgba(255,255,255,0.05);
+            padding: 10px;
+            margin-bottom: 8px;
+            border-radius: 6px;
+            border-left: 3px solid #e94560;
+        }
+        .piece .part {
+            font-size: 12px;
+            color: #888;
+            text-transform: uppercase;
+        }
+        .piece .name {
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+        }
+        .piece .slots {
+            font-size: 14px;
+            color: #e94560;
+            margin-left: 10px;
+        }
+        .piece .skills {
+            font-size: 13px;
+            color: #aaa;
+            margin-top: 5px;
+        }
+        .decos {
+            background: rgba(255,255,255,0.05);
+            padding: 10px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+        .decos h4 {
+            margin: 0 0 8px 0;
+            font-size: 14px;
+            color: #e94560;
+        }
+        .decos span {
+            display: inline-block;
+            background: rgba(233,69,96,0.2);
+            padding: 4px 8px;
+            border-radius: 4px;
+            margin: 2px;
+            font-size: 13px;
+        }
+        .skills-summary {
+            background: rgba(15,52,96,0.3);
+            padding: 10px;
+            border-radius: 6px;
+        }
+        .skills-summary h4 {
+            margin: 0 0 8px 0;
+            font-size: 14px;
+            color: #0f3460;
+        }
+        .skill {
+            display: inline-block;
+            margin-right: 8px;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 13px;
+        }
+        .skill.target {
+            background: #e94560;
+            color: #fff;
+        }
+        .skill.non-target {
+            background: rgba(255,255,255,0.1);
+            color: #aaa;
+        }
+        .footer {
+            text-align: center;
+            font-size: 11px;
+            color: #666;
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎮 怪物猎人配装器</h1>
+        <div class="index">方案 {{INDEX}}</div>
+    </div>
+
+    <div class="metrics">
+        <div class="metric">
+            <div class="value">{{DEFENSE}}</div>
+            <div class="label">防御力</div>
+        </div>
+        <div class="metric">
+            <div class="value">{{LEFTOVER}}</div>
+            <div class="label">剩余孔位</div>
+        </div>
+        <div class="metric">
+            <div class="value">{{EXCESS}}</div>
+            <div class="label">溢出点数</div>
+        </div>
+    </div>
+
+    <div class="armor-list">
+        {{ARMOR}}
+    </div>
+
+    <div class="decos">
+        <h4>🔧 镶嵌装饰品</h4>
+        {{DECOS}}
+    </div>
+
+    <div class="skills-summary">
+        <h4>⚔️ 技能汇总</h4>
+        {{SKILLS}}
+    </div>
+
+    <div class="footer">
+        怪物猎人崛起：曙光 · 自动配装器
+    </div>
+</body>
+</html>
