@@ -1,0 +1,11 @@
+# AstrBot 插件元数据
+name: "mhrice-astrbot"
+description: "怪物猎人配装器 - 通过 QQ 聊天进行自动配装"
+version: "1.0.0"
+author: "OpenSquilla"
+url: "https://github.com/yourusername/mhrice-astrbot-plugin"
+license: "MIT"
+requirements:
+  - "playwright>=1.40.0"
+  - "pyyaml>=6.0"
+  - "astrbot>=2024.1.0"
