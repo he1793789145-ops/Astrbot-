@@ -484,15 +484,5 @@ class MHRicePlugin:
         print(f"[管理员通知] {admin_qq}: {message}")
 
 
-# AstrBot 插件注册
-if HAS_ASTRBOT:
-    plugin = MHRicePlugin()
-
-    @manager.plugin
-    class MHRiceBuilderPlugin(Plugin):
-        name = "MHRiceBuilder"
-        desc = "怪物猎人配装器"
-        usage = "/配装 攻击=4 看破=3"
-
-        async def handle(self, message: Any) -> None:
-            await plugin.handle_message(message)
+# AstrBot 插件注册（暴露 plugin 对象）
+plugin = MHRicePlugin()
