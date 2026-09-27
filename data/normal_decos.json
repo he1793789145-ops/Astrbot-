@@ -1,0 +1,8825 @@
+{
+  "0": {
+    "id": 0,
+    "name": "攻击珠【2】",
+    "sort_id": 2180,
+    "rare": 6,
+    "icon_color": 7,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 0,
+        "level": 1,
+        "name": "攻击"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 5,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 337,
+        "count": 3,
+        "name": "金狮子的黑毛"
+      },
+      {
+        "item_id": 571,
+        "count": 3,
+        "name": "雪鬼兽的尖拳爪"
+      },
+      {
+        "item_id": 179,
+        "count": 1,
+        "name": "怨虎龙的逆鳞"
+      }
+    ],
+    "unlock_monster_id": "em099_00",
+    "unlock_monster": "雷神龙"
+  },
+  "1": {
+    "id": 1,
+    "name": "挑战珠【2】",
+    "sort_id": 1190,
+    "rare": 6,
+    "icon_color": 7,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 1,
+        "level": 1,
+        "name": "挑战者"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 4,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 645,
+        "count": 2,
+        "name": "蛮颚龙的上等鳞"
+      },
+      {
+        "item_id": 560,
+        "count": 3,
+        "name": "泥翁龙的上等鳞"
+      },
+      {
+        "item_id": 904,
+        "count": 1,
+        "name": "兽玉"
+      }
+    ],
+    "unlock_progress": "集会所任务 上位解锁"
+  },
+  "2": {
+    "id": 2,
+    "name": "无伤珠【2】",
+    "sort_id": 1180,
+    "rare": 6,
+    "icon_color": 7,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 2,
+        "level": 1,
+        "name": "无伤"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 4,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 604,
+        "count": 2,
+        "name": "霸主的起泡滑液"
+      },
+      {
+        "item_id": 581,
+        "count": 3,
+        "name": "风神龙的尖爪"
+      },
+      {
+        "item_id": 281,
+        "count": 1,
+        "name": "岩龙的泪"
+      }
+    ],
+    "unlock_monster_id": "em082_07",
+    "unlock_monster": "霸主・泡狐龙",
+    "unlock_progress": "集会所任务 上位解锁"
+  },
+  "3": {
+    "id": 3,
+    "name": "逆上珠【2】",
+    "sort_id": 1170,
+    "rare": 6,
+    "icon_color": 6,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 3,
+        "level": 1,
+        "name": "怨恨"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 4,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 330,
+        "count": 2,
+        "name": "轰龙的尖爪"
+      },
+      {
+        "item_id": 266,
+        "count": 3,
+        "name": "冰牙龙的上等毛皮"
+      },
+      {
+        "item_id": 578,
+        "count": 2,
+        "name": "风神龙的坚壳"
+      }
+    ],
+    "unlock_progress": "集会所任务 上位解锁"
+  },
+  "4": {
+    "id": 4,
+    "name": "绝路珠【2】",
+    "sort_id": 1160,
+    "rare": 6,
+    "icon_color": 6,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 4,
+        "level": 1,
+        "name": "死里逃生"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 4,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 285,
+        "count": 3,
+        "name": "迅龙的上等黑毛"
+      },
+      {
+        "item_id": 327,
+        "count": 2,
+        "name": "轰龙的坚壳"
+      },
+      {
+        "item_id": 904,
+        "count": 1,
+        "name": "兽玉"
+      }
+    ],
+    "unlock_progress": "集会所任务 上位解锁"
+  },
+  "5": {
+    "id": 5,
+    "name": "达人珠【2】",
+    "sort_id": 2190,
+    "rare": 6,
+    "icon_color": 3,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 5,
+        "level": 1,
+        "name": "看破"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 4,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 436,
+        "count": 3,
+        "name": "古龙的血"
+      },
+      {
+        "item_id": 337,
+        "count": 3,
+        "name": "金狮子的黑毛"
+      },
+      {
+        "item_id": 583,
+        "count": 1,
+        "name": "风神龙的碧棘"
+      }
+    ],
+    "unlock_monster_id": "em099_00",
+    "unlock_monster": "雷神龙"
+  },
+  "6": {
+    "id": 6,
+    "name": "超心珠【2】",
+    "sort_id": 1210,
+    "rare": 7,
+    "icon_color": 3,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 6,
+        "level": 1,
+        "name": "超会心"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 5,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 605,
+        "count": 2,
+        "name": "霸主的轰炎袋"
+      },
+      {
+        "item_id": 556,
+        "count": 2,
+        "name": "怨虎龙的刚盔角"
+      },
+      {
+        "item_id": 184,
+        "count": 1,
+        "name": "泥翁龙的逆鳞"
+      }
+    ],
+    "unlock_monster_id": "em002_07",
+    "unlock_monster": "霸主・火龙"
+  },
+  "7": {
+    "id": 7,
+    "name": "痛击珠【2】",
+    "sort_id": 1200,
+    "rare": 6,
+    "icon_color": 3,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 7,
+        "level": 1,
+        "name": "弱点特效"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 5,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 577,
+        "count": 3,
+        "name": "妃蜘蛛的钩棘"
+      },
+      {
+        "item_id": 562,
+        "count": 3,
+        "name": "泥翁龙的尖爪"
+      },
+      {
+        "item_id": 293,
+        "count": 1,
+        "name": "迅龙的延髓"
+      }
+    ],
+    "unlock_progress": "集会所任务 上位解锁"
+  },
+  "8": {
+    "id": 8,
+    "name": "全开珠【2】",
+    "sort_id": 1150,
+    "rare": 6,
+    "icon_color": 3,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 8,
+        "level": 1,
+        "name": "力量解放"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 4,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 646,
+        "count": 3,
+        "name": "蛮颚龙的上等毛皮"
+      },
+      {
+        "item_id": 300,
+        "count": 1,
+        "name": "雷狼龙的尖角"
+      },
+      {
+        "item_id": 427,
+        "count": 1,
+        "name": "龙玉"
+      }
+    ],
+    "unlock_progress": "集会所任务 上位解锁"
+  },
+  "9": {
+    "id": 9,
+    "name": "浑身珠【2】",
+    "sort_id": 2170,
+    "rare": 6,
+    "icon_color": 3,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 9,
+        "level": 1,
+        "name": "精神抖擞"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 5,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 588,
+        "count": 2,
+        "name": "雷神龙的尖爪"
+      },
+      {
+        "item_id": 567,
+        "count": 4,
+        "name": "雪鬼兽的刚毛"
+      },
+      {
+        "item_id": 96,
+        "count": 1,
+        "name": "雌火龙的逆鳞"
+      }
+    ],
+    "unlock_monster_id": "em099_00",
+    "unlock_monster": "雷神龙"
+  },
+  "10": {
+    "id": 10,
+    "name": "属会珠【2】",
+    "sort_id": 2050,
+    "rare": 6,
+    "icon_color": 10,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 10,
+        "level": 1,
+        "name": "会心击【属性】"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 4,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 436,
+        "count": 2,
+        "name": "古龙的血"
+      },
+      {
+        "item_id": 572,
+        "count": 2,
+        "name": "寒冷的坚冰块"
+      },
+      {
+        "item_id": 620,
+        "count": 1,
+        "name": "飞雷龙的雷极针"
+      }
+    ],
+    "unlock_monster_id": "em099_00",
+    "unlock_monster": "雷神龙"
+  },
+  "11": {
+    "id": 11,
+    "name": "达艺珠【2】",
+    "sort_id": 1000,
+    "rare": 7,
+    "icon_color": 1,
+    "base_price": 2000,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 11,
+        "level": 1,
+        "name": "达人艺"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 8,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 358,
+        "count": 6,
+        "name": "狱炎龙鳞"
+      },
+      {
+        "item_id": 355,
+        "count": 4,
+        "name": "炎王龙的鬃毛"
+      },
+      {
+        "item_id": 191,
+        "count": 1,
+        "name": "雪鬼胆"
+      }
+    ],
+    "unlock_monster_id": "em027_00",
+    "unlock_monster": "炎王龙"
+  },
+  "12": {
+    "id": 12,
+    "name": "火炎珠【1】",
+    "sort_id": 4120,
+    "rare": 5,
+    "icon_color": 7,
+    "base_price": 500,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 12,
+        "level": 1,
+        "name": "火属性攻击强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 2,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 294,
+        "count": 2,
+        "name": "雌火龙的上等鳞"
+      },
+      {
+        "item_id": 445,
+        "count": 1,
+        "name": "爆炎袋"
+      }
+    ],
+    "unlock_progress": "集会所任务 5星"
+  },
+  "13": {
+    "id": 13,
+    "name": "流水珠【1】",
+    "sort_id": 4130,
+    "rare": 5,
+    "icon_color": 11,
+    "base_price": 500,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 13,
+        "level": 1,
+        "name": "水属性攻击强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 2,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 622,
+        "count": 2,
+        "name": "泥鱼龙的坚壳"
+      },
+      {
+        "item_id": 451,
+        "count": 1,
+        "name": "大水袋"
+      }
+    ],
+    "unlock_progress": "集会所任务 5星"
+  },
+  "14": {
+    "id": 14,
+    "name": "冰结珠【1】",
+    "sort_id": 4150,
+    "rare": 5,
+    "icon_color": 12,
+    "base_price": 500,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 14,
+        "level": 1,
+        "name": "冰属性攻击强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 2,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 228,
+        "count": 2,
+        "name": "白兔兽的刚毛"
+      },
+      {
+        "item_id": 226,
+        "count": 2,
+        "name": "眠狗龙王的尖爪"
+      }
+    ],
+    "unlock_progress": "集会所任务 5星"
+  },
+  "15": {
+    "id": 15,
+    "name": "雷光珠【1】",
+    "sort_id": 4140,
+    "rare": 5,
+    "icon_color": 4,
+    "base_price": 500,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 15,
+        "level": 1,
+        "name": "雷属性攻击强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 2,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 236,
+        "count": 2,
+        "name": "珍珠色的柔皮"
+      },
+      {
+        "item_id": 447,
+        "count": 1,
+        "name": "电击袋"
+      }
+    ],
+    "unlock_progress": "集会所任务 5星"
+  },
+  "16": {
+    "id": 16,
+    "name": "破龙珠【1】",
+    "sort_id": 4160,
+    "rare": 5,
+    "icon_color": 6,
+    "base_price": 500,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 16,
+        "level": 1,
+        "name": "龙属性攻击强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 2,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 295,
+        "count": 2,
+        "name": "雌火龙的坚壳"
+      },
+      {
+        "item_id": 723,
+        "count": 1,
+        "name": "古老龙骨"
+      }
+    ],
+    "unlock_progress": "集会所任务 5星"
+  },
+  "17": {
+    "id": 17,
+    "name": "毒珠【1】",
+    "sort_id": 4090,
+    "rare": 5,
+    "icon_color": 9,
+    "base_price": 500,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 17,
+        "level": 1,
+        "name": "毒属性强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 2,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 637,
+        "count": 2,
+        "name": "毒妖鸟的上等鳞"
+      },
+      {
+        "item_id": 439,
+        "count": 1,
+        "name": "猛毒袋"
+      }
+    ],
+    "unlock_monster_id": "em102_00",
+    "unlock_monster": "毒妖鸟"
+  },
+  "18": {
+    "id": 18,
+    "name": "麻痹珠【2】",
+    "sort_id": 1140,
+    "rare": 6,
+    "icon_color": 5,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 18,
+        "level": 1,
+        "name": "麻痹属性强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 5,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 441,
+        "count": 3,
+        "name": "强力麻痹袋"
+      },
+      {
+        "item_id": 566,
+        "count": 2,
+        "name": "黄金色的粘泥土"
+      },
+      {
+        "item_id": 423,
+        "count": 3,
+        "name": "古龙骨"
+      }
+    ],
+    "unlock_progress": "集会所任务 上位解锁"
+  },
+  "19": {
+    "id": 19,
+    "name": "睡眠珠【2】",
+    "sort_id": 1130,
+    "rare": 6,
+    "icon_color": 12,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 19,
+        "level": 1,
+        "name": "睡眠属性强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 5,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 552,
+        "count": 4,
+        "name": "人鱼龙的假寐粉"
+      },
+      {
+        "item_id": 443,
+        "count": 2,
+        "name": "昏睡袋"
+      },
+      {
+        "item_id": 423,
+        "count": 3,
+        "name": "古龙骨"
+      }
+    ],
+    "unlock_progress": "集会所任务 上位解锁"
+  },
+  "20": {
+    "id": 20,
+    "name": "爆破珠【2】",
+    "sort_id": 1120,
+    "rare": 6,
+    "icon_color": 6,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 20,
+        "level": 1,
+        "name": "爆破属性强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 4,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 653,
+        "count": 2,
+        "name": "爆鳞龙的爆腺"
+      },
+      {
+        "item_id": 651,
+        "count": 1,
+        "name": "爆鳞龙的坚壳"
+      },
+      {
+        "item_id": 559,
+        "count": 2,
+        "name": "怨虎龙的魂结晶"
+      }
+    ],
+    "unlock_monster_id": "em118_00",
+    "unlock_monster": "爆鳞龙",
+    "unlock_progress": "集会所任务 上位解锁"
+  },
+  "21": {
+    "id": 21,
+    "name": "匠珠【3】",
+    "sort_id": 1010,
+    "rare": 7,
+    "icon_color": 10,
+    "base_price": 2000,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 21,
+        "level": 1,
+        "name": "匠"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 8,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 348,
+        "count": 6,
+        "name": "钢之上等龙鳞"
+      },
+      {
+        "item_id": 350,
+        "count": 3,
+        "name": "钢龙的尖角"
+      },
+      {
+        "item_id": 558,
+        "count": 1,
+        "name": "怨虎龙的紫玉"
+      }
+    ],
+    "unlock_monster_id": "em024_00",
+    "unlock_monster": "钢龙"
+  },
+  "22": {
+    "id": 22,
+    "name": "斩铁珠【2】",
+    "sort_id": 1070,
+    "rare": 6,
+    "icon_color": 4,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 22,
+        "level": 1,
+        "name": "利刃"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 5,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 557,
+        "count": 3,
+        "name": "怨虎龙的妖刀壳"
+      },
+      {
+        "item_id": 338,
+        "count": 2,
+        "name": "金狮子的尖爪"
+      },
+      {
+        "item_id": 100,
+        "count": 1,
+        "name": "火龙的逆鳞"
+      }
+    ],
+    "unlock_monster_id": "em023_00",
+    "unlock_monster": "金狮子",
+    "unlock_progress": "集会所任务 上位解锁"
+  },
+  "23": {
+    "id": 23,
+    "name": "省弹珠【2】",
+    "sort_id": 1060,
+    "rare": 6,
+    "icon_color": 4,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 23,
+        "level": 1,
+        "name": "弹丸节约"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 5,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 336,
+        "count": 3,
+        "name": "金狮子的锐牙"
+      },
+      {
+        "item_id": 575,
+        "count": 2,
+        "name": "妃蜘蛛的灯腹"
+      },
+      {
+        "item_id": 427,
+        "count": 2,
+        "name": "龙玉"
+      }
+    ],
+    "unlock_monster_id": "em023_00",
+    "unlock_monster": "金狮子",
+    "unlock_progress": "集会所任务 上位解锁"
+  },
+  "24": {
+    "id": 24,
+    "name": "刚刃珠【2】",
+    "sort_id": 1110,
+    "rare": 6,
+    "icon_color": 4,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 24,
+        "level": 1,
+        "name": "刚刃打磨"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 4,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 555,
+        "count": 4,
+        "name": "怨虎龙的妖臂刃"
+      },
+      {
+        "item_id": 289,
+        "count": 3,
+        "name": "迅龙的锐刃翼"
+      },
+      {
+        "item_id": 523,
+        "count": 1,
+        "name": "镰鼬龙王上等刃尾"
+      }
+    ],
+    "unlock_progress": "集会所任务 上位解锁"
+  },
+  "25": {
+    "id": 25,
+    "name": "心眼珠【2】",
+    "sort_id": 2090,
+    "rare": 7,
+    "icon_color": 1,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 25,
+        "level": 1,
+        "name": "心眼"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 5,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 568,
+        "count": 2,
+        "name": "雪鬼兽的上等皮"
+      },
+      {
+        "item_id": 305,
+        "count": 3,
+        "name": "泡狐龙的上等紫毛"
+      },
+      {
+        "item_id": 340,
+        "count": 2,
+        "name": "黄金色的毛"
+      }
+    ],
+    "unlock_monster_id": "em032_00",
+    "unlock_monster": "轰龙"
+  },
+  "26": {
+    "id": 26,
+    "name": "射法珠【2】",
+    "sort_id": 2040,
+    "rare": 6,
+    "icon_color": 1,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 26,
+        "level": 1,
+        "name": "弹道强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 5,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 588,
+        "count": 2,
+        "name": "雷神龙的尖爪"
+      },
+      {
+        "item_id": 301,
+        "count": 3,
+        "name": "雷狼龙的尖爪"
+      },
+      {
+        "item_id": 323,
+        "count": 1,
+        "name": "角龙的延髓"
+      }
+    ],
+    "unlock_monster_id": "em099_00",
+    "unlock_monster": "雷神龙"
+  },
+  "27": {
+    "id": 27,
+    "name": "钝器珠【2】",
+    "sort_id": 2220,
+    "rare": 5,
+    "icon_color": 2,
+    "base_price": 1000,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 27,
+        "level": 1,
+        "name": "钝器能手"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 4,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 569,
+        "count": 3,
+        "name": "雪鬼兽的坚臂甲"
+      },
+      {
+        "item_id": 319,
+        "count": 2,
+        "name": "角龙的坚甲"
+      },
+      {
+        "item_id": 339,
+        "count": 1,
+        "name": "金狮子的尾巴"
+      }
+    ],
+    "unlock_monster_id": "em007_00",
+    "unlock_monster": "角龙"
+  },
+  "29": {
+    "id": 29,
+    "name": "缩短珠【2】",
+    "sort_id": 2080,
+    "rare": 7,
+    "icon_color": 1,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 29,
+        "level": 1,
+        "name": "集中"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 5,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 582,
+        "count": 3,
+        "name": "风神龙的风袋"
+      },
+      {
+        "item_id": 557,
+        "count": 3,
+        "name": "怨虎龙的妖刀壳"
+      },
+      {
+        "item_id": 458,
+        "count": 2,
+        "name": "火龙的延髓"
+      }
+    ],
+    "unlock_monster_id": "em099_00",
+    "unlock_monster": "雷神龙"
+  },
+  "30": {
+    "id": 30,
+    "name": "昂扬珠【2】",
+    "sort_id": 2160,
+    "rare": 6,
+    "icon_color": 13,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 30,
+        "level": 1,
+        "name": "强化持续"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 4,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 572,
+        "count": 2,
+        "name": "寒冷的坚冰块"
+      },
+      {
+        "item_id": 566,
+        "count": 2,
+        "name": "黄金色的粘泥土"
+      },
+      {
+        "item_id": 427,
+        "count": 1,
+        "name": "龙玉"
+      }
+    ],
+    "unlock_monster_id": "em095_00",
+    "unlock_monster": "泥翁龙"
+  },
+  "31": {
+    "id": 31,
+    "name": "强走珠【2】",
+    "sort_id": 2070,
+    "rare": 7,
+    "icon_color": 5,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 31,
+        "level": 1,
+        "name": "跑者"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 4,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 299,
+        "count": 3,
+        "name": "雷狼龙的高电毛"
+      },
+      {
+        "item_id": 317,
+        "count": 3,
+        "name": "角龙的坚壳"
+      },
+      {
+        "item_id": 259,
+        "count": 2,
+        "name": "水兽的锐爪"
+      }
+    ],
+    "unlock_monster_id": "em099_00",
+    "unlock_monster": "雷神龙"
+  },
+  "32": {
+    "id": 32,
+    "name": "体术珠【2】",
+    "sort_id": 4080,
+    "rare": 4,
+    "icon_color": 5,
+    "base_price": 500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 32,
+        "level": 1,
+        "name": "体术"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 2,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 274,
+        "count": 3,
+        "name": "赤甲兽的坚壳"
+      },
+      {
+        "item_id": 698,
+        "count": 1,
+        "name": "白鸠石"
+      }
+    ],
+    "unlock_monster_id": "em062_00",
+    "unlock_monster": "赤甲兽"
+  },
+  "33": {
+    "id": 33,
+    "name": "早气珠【2】",
+    "sort_id": 2150,
+    "rare": 6,
+    "icon_color": 5,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 33,
+        "level": 1,
+        "name": "耐力急速回复"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 4,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 325,
+        "count": 3,
+        "name": "轰龙的上等鳞"
+      },
+      {
+        "item_id": 564,
+        "count": 2,
+        "name": "泥翁龙的长胡须"
+      },
+      {
+        "item_id": 261,
+        "count": 2,
+        "name": "高级头冠"
+      }
+    ],
+    "unlock_monster_id": "em099_00",
+    "unlock_monster": "雷神龙"
+  },
+  "34": {
+    "id": 34,
+    "name": "铁壁珠【2】",
+    "sort_id": 2140,
+    "rare": 6,
+    "icon_color": 2,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 34,
+        "level": 1,
+        "name": "防御性能"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 4,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 589,
+        "count": 3,
+        "name": "雷神龙的雷袋"
+      },
+      {
+        "item_id": 563,
+        "count": 3,
+        "name": "泥翁龙的刚毛鳍"
+      },
+      {
+        "item_id": 533,
+        "count": 2,
+        "name": "河童蛙的大碟"
+      }
+    ],
+    "unlock_monster_id": "em099_00",
+    "unlock_monster": "雷神龙"
+  },
+  "35": {
+    "id": 35,
+    "name": "强壁珠【2】",
+    "sort_id": 2130,
+    "rare": 6,
+    "icon_color": 1,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 35,
+        "level": 1,
+        "name": "防御强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 4,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 585,
+        "count": 3,
+        "name": "雷神龙的坚壳"
+      },
+      {
+        "item_id": 569,
+        "count": 3,
+        "name": "雪鬼兽的坚臂甲"
+      },
+      {
+        "item_id": 1031,
+        "count": 2,
+        "name": "岩龙的坚胸壳"
+      }
+    ],
+    "unlock_monster_id": "em099_00",
+    "unlock_monster": "雷神龙"
+  },
+  "36": {
+    "id": 36,
+    "name": "守势珠【3】",
+    "sort_id": 2010,
+    "rare": 7,
+    "icon_color": 9,
+    "base_price": 1500,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 36,
+        "level": 1,
+        "name": "攻击守势"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 5,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 579,
+        "count": 3,
+        "name": "风神龙的上等皮"
+      },
+      {
+        "item_id": 276,
+        "count": 3,
+        "name": "赤甲兽的尖爪"
+      },
+      {
+        "item_id": 323,
+        "count": 2,
+        "name": "角龙的延髓"
+      }
+    ],
+    "unlock_monster_id": "em099_00",
+    "unlock_monster": "雷神龙"
+  },
+  "37": {
+    "id": 37,
+    "name": "拔刀珠【3】",
+    "sort_id": 2030,
+    "rare": 7,
+    "icon_color": 3,
+    "base_price": 1500,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 37,
+        "level": 1,
+        "name": "拔刀术【技】"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 4,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 581,
+        "count": 3,
+        "name": "风神龙的尖爪"
+      },
+      {
+        "item_id": 315,
+        "count": 2,
+        "name": "优质的弯曲角"
+      },
+      {
+        "item_id": 272,
+        "count": 1,
+        "name": "琥珀色的锐牙"
+      }
+    ],
+    "unlock_monster_id": "em099_00",
+    "unlock_monster": "雷神龙"
+  },
+  "38": {
+    "id": 38,
+    "name": "拔打珠【2】",
+    "sort_id": 3030,
+    "rare": 5,
+    "icon_color": 4,
+    "base_price": 750,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 38,
+        "level": 1,
+        "name": "拔刀术【力】"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 2,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 300,
+        "count": 1,
+        "name": "雷狼龙的尖角"
+      },
+      {
+        "item_id": 549,
+        "count": 2,
+        "name": "人鱼龙的坚壳"
+      },
+      {
+        "item_id": 189,
+        "count": 1,
+        "name": "雪鬼兽的拳爪"
+      }
+    ],
+    "unlock_monster_id": "em057_00",
+    "unlock_monster": "雷狼龙"
+  },
+  "39": {
+    "id": 39,
+    "name": "速纳珠【2】",
+    "sort_id": 3070,
+    "rare": 5,
+    "icon_color": 13,
+    "base_price": 750,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 39,
+        "level": 1,
+        "name": "纳刀术"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 2,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 285,
+        "count": 2,
+        "name": "迅龙的上等黑毛"
+      },
+      {
+        "item_id": 618,
+        "count": 1,
+        "name": "飞雷龙的尖爪"
+      },
+      {
+        "item_id": 547,
+        "count": 1,
+        "name": "天狗兽的尖爪"
+      }
+    ],
+    "unlock_monster_id": "em037_00",
+    "unlock_monster": "迅龙"
+  },
+  "40": {
+    "id": 40,
+    "name": "击晕珠【2】",
+    "sort_id": 3090,
+    "rare": 5,
+    "icon_color": 4,
+    "base_price": 750,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 40,
+        "level": 1,
+        "name": "击晕术"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 1,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 648,
+        "count": 2,
+        "name": "蛮颚龙的大鼻骨"
+      },
+      {
+        "item_id": 246,
+        "count": 1,
+        "name": "土砂龙的头壳"
+      }
+    ],
+    "unlock_monster_id": "em100_00",
+    "unlock_monster": "蛮颚龙"
+  },
+  "41": {
+    "id": 41,
+    "name": "夺气珠【1】",
+    "sort_id": 4070,
+    "rare": 4,
+    "icon_color": 10,
+    "base_price": 500,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 41,
+        "level": 1,
+        "name": "夺取耐力"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 1,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 245,
+        "count": 2,
+        "name": "土砂龙的锐爪"
+      }
+    ],
+    "unlock_monster_id": "em044_00",
+    "unlock_monster": "土砂龙"
+  },
+  "42": {
+    "id": 42,
+    "name": "滑走珠【1】",
+    "sort_id": 4100,
+    "rare": 4,
+    "icon_color": 3,
+    "base_price": 500,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 42,
+        "level": 1,
+        "name": "滑走强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 1,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 232,
+        "count": 1,
+        "name": "白兔兽的坚腹甲"
+      },
+      {
+        "item_id": 255,
+        "count": 1,
+        "name": "海绵质的上等皮"
+      }
+    ],
+    "unlock_progress": "集会所任务 5星"
+  },
+  "43": {
+    "id": 43,
+    "name": "鼓笛珠【1】",
+    "sort_id": 4060,
+    "rare": 4,
+    "icon_color": 8,
+    "base_price": 500,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 43,
+        "level": 1,
+        "name": "吹笛名人"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 1,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 643,
+        "count": 1,
+        "name": "毒妖鸟的大喉袋"
+      }
+    ],
+    "unlock_monster_id": "em102_00",
+    "unlock_monster": "毒妖鸟"
+  },
+  "44": {
+    "id": 44,
+    "name": "炮术珠【2】",
+    "sort_id": 2060,
+    "rare": 7,
+    "icon_color": 2,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 44,
+        "level": 1,
+        "name": "炮术"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 4,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 553,
+        "count": 4,
+        "name": "怨虎龙的上等鳞"
+      },
+      {
+        "item_id": 643,
+        "count": 2,
+        "name": "毒妖鸟的大喉袋"
+      },
+      {
+        "item_id": 534,
+        "count": 1,
+        "name": "河童蛙的大嘴"
+      }
+    ],
+    "unlock_monster_id": "em089_00",
+    "unlock_monster": "怨虎龙"
+  },
+  "45": {
+    "id": 45,
+    "name": "增弹珠【2】",
+    "sort_id": 2120,
+    "rare": 6,
+    "icon_color": 2,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 45,
+        "level": 1,
+        "name": "炮弹装填"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 4,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 570,
+        "count": 2,
+        "name": "雪鬼兽的尖角"
+      },
+      {
+        "item_id": 546,
+        "count": 2,
+        "name": "天狗兽的坚尾甲"
+      },
+      {
+        "item_id": 904,
+        "count": 1,
+        "name": "兽玉"
+      }
+    ],
+    "unlock_monster_id": "em097_00",
+    "unlock_monster": "雪鬼兽"
+  },
+  "46": {
+    "id": 46,
+    "name": "特射珠【2】",
+    "sort_id": 2110,
+    "rare": 6,
+    "icon_color": 2,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 46,
+        "level": 1,
+        "name": "特殊射击强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 4,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 562,
+        "count": 2,
+        "name": "泥翁龙的尖爪"
+      },
+      {
+        "item_id": 551,
+        "count": 2,
+        "name": "人鱼龙的怒发鳍"
+      },
+      {
+        "item_id": 306,
+        "count": 2,
+        "name": "泡狐龙的尖爪"
+      }
+    ],
+    "unlock_monster_id": "em095_00",
+    "unlock_monster": "泥翁龙"
+  },
+  "47": {
+    "id": 47,
+    "name": "强弹珠【3】",
+    "sort_id": 1100,
+    "rare": 6,
+    "icon_color": 1,
+    "base_price": 1500,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 47,
+        "level": 1,
+        "name": "通常弹・连射箭强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 5,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 315,
+        "count": 2,
+        "name": "优质的弯曲角"
+      },
+      {
+        "item_id": 570,
+        "count": 2,
+        "name": "雪鬼兽的尖角"
+      },
+      {
+        "item_id": 427,
+        "count": 2,
+        "name": "龙玉"
+      }
+    ],
+    "unlock_progress": "集会所任务 上位解锁"
+  },
+  "48": {
+    "id": 48,
+    "name": "贯穿珠【3】",
+    "sort_id": 1090,
+    "rare": 7,
+    "icon_color": 11,
+    "base_price": 1500,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 48,
+        "level": 1,
+        "name": "贯穿弹・贯穿箭强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 5,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 332,
+        "count": 3,
+        "name": "轰龙的锐牙"
+      },
+      {
+        "item_id": 335,
+        "count": 1,
+        "name": "金狮子的尖角"
+      },
+      {
+        "item_id": 112,
+        "count": 1,
+        "name": "泡狐龙的逆鳞"
+      }
+    ],
+    "unlock_progress": "集会所任务 上位解锁"
+  },
+  "49": {
+    "id": 49,
+    "name": "散弹珠【3】",
+    "sort_id": 1080,
+    "rare": 7,
+    "icon_color": 2,
+    "base_price": 1500,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 49,
+        "level": 1,
+        "name": "散弹・扩散箭强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 5,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 653,
+        "count": 3,
+        "name": "爆鳞龙的爆腺"
+      },
+      {
+        "item_id": 654,
+        "count": 2,
+        "name": "爆鳞龙的尖爪"
+      },
+      {
+        "item_id": 107,
+        "count": 1,
+        "name": "雷狼龙的逆鳞"
+      }
+    ],
+    "unlock_monster_id": "em118_00",
+    "unlock_monster": "爆鳞龙",
+    "unlock_progress": "集会所任务 上位解锁"
+  },
+  "50": {
+    "id": 50,
+    "name": "装填珠【3】",
+    "sort_id": 2000,
+    "rare": 7,
+    "icon_color": 8,
+    "base_price": 1500,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 50,
+        "level": 1,
+        "name": "装填扩充"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 5,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 582,
+        "count": 3,
+        "name": "风神龙的风袋"
+      },
+      {
+        "item_id": 291,
+        "count": 3,
+        "name": "迅龙的锐牙"
+      },
+      {
+        "item_id": 623,
+        "count": 2,
+        "name": "泥鱼龙的锐牙"
+      }
+    ],
+    "unlock_monster_id": "em099_00",
+    "unlock_monster": "雷神龙"
+  },
+  "51": {
+    "id": 51,
+    "name": "早填珠【1】",
+    "sort_id": 2230,
+    "rare": 5,
+    "icon_color": 1,
+    "base_price": 1000,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 51,
+        "level": 1,
+        "name": "装填速度"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 3,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 553,
+        "count": 2,
+        "name": "怨虎龙的上等鳞"
+      },
+      {
+        "item_id": 317,
+        "count": 2,
+        "name": "角龙的坚壳"
+      },
+      {
+        "item_id": 543,
+        "count": 1,
+        "name": "天狗兽的刚毛"
+      }
+    ],
+    "unlock_progress": "集会所任务 7星"
+  },
+  "52": {
+    "id": 52,
+    "name": "抑反珠【1】",
+    "sort_id": 2210,
+    "rare": 5,
+    "icon_color": 13,
+    "base_price": 1000,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 52,
+        "level": 1,
+        "name": "减轻后坐力"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 2,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 576,
+        "count": 2,
+        "name": "妃蜘蛛的锐爪"
+      },
+      {
+        "item_id": 648,
+        "count": 1,
+        "name": "蛮颚龙的大鼻骨"
+      }
+    ],
+    "unlock_monster_id": "em094_00",
+    "unlock_monster": "妃蜘蛛"
+  },
+  "53": {
+    "id": 53,
+    "name": "点射珠【1】",
+    "sort_id": 3020,
+    "rare": 5,
+    "icon_color": 2,
+    "base_price": 750,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 53,
+        "level": 1,
+        "name": "抑制偏移"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 1,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 304,
+        "count": 2,
+        "name": "泡狐龙的上等鳞"
+      },
+      {
+        "item_id": 312,
+        "count": 1,
+        "name": "火龙的翼"
+      }
+    ],
+    "unlock_monster_id": "em042_00",
+    "unlock_monster": "冰牙龙"
+  },
+  "54": {
+    "id": 54,
+    "name": "速射珠【3】",
+    "sort_id": 1050,
+    "rare": 7,
+    "icon_color": 1,
+    "base_price": 1500,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 54,
+        "level": 1,
+        "name": "速射强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 5,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 587,
+        "count": 3,
+        "name": "雷神龙的尖角"
+      },
+      {
+        "item_id": 296,
+        "count": 1,
+        "name": "雌火龙的上等棘"
+      },
+      {
+        "item_id": 146,
+        "count": 1,
+        "name": "蛮颚龙的逆鳞"
+      }
+    ],
+    "unlock_progress": "集会所任务 上位解锁"
+  },
+  "55": {
+    "id": 55,
+    "name": "防御珠【1】",
+    "sort_id": 4170,
+    "rare": 5,
+    "icon_color": 5,
+    "base_price": 500,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 55,
+        "level": 1,
+        "name": "防御"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 2,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 279,
+        "count": 2,
+        "name": "岩龙的坚壳"
+      },
+      {
+        "item_id": 243,
+        "count": 1,
+        "name": "土砂龙的坚甲"
+      }
+    ],
+    "unlock_progress": "集会所任务 5星"
+  },
+  "56": {
+    "id": 56,
+    "name": "加护珠【2】",
+    "sort_id": 3140,
+    "rare": 5,
+    "icon_color": 1,
+    "base_price": 750,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 56,
+        "level": 1,
+        "name": "精灵加护"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 4,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 548,
+        "count": 3,
+        "name": "人鱼龙的上等鳞"
+      },
+      {
+        "item_id": 307,
+        "count": 2,
+        "name": "泡狐龙的上等锦鳍"
+      },
+      {
+        "item_id": 427,
+        "count": 1,
+        "name": "龙玉"
+      }
+    ],
+    "unlock_progress": "集会所任务 6星"
+  },
+  "57": {
+    "id": 57,
+    "name": "治愈珠【2】",
+    "sort_id": 4050,
+    "rare": 4,
+    "icon_color": 8,
+    "base_price": 500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 57,
+        "level": 1,
+        "name": "体力回复量提升"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 2,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 1031,
+        "count": 2,
+        "name": "岩龙的坚胸壳"
+      },
+      {
+        "item_id": 467,
+        "count": 1,
+        "name": "远古秘药"
+      }
+    ],
+    "unlock_monster_id": "em004_00",
+    "unlock_monster": "岩龙"
+  },
+  "58": {
+    "id": 58,
+    "name": "早复珠【1】",
+    "sort_id": 4040,
+    "rare": 4,
+    "icon_color": 8,
+    "base_price": 500,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 58,
+        "level": 1,
+        "name": "回复速度"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 1,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 624,
+        "count": 2,
+        "name": "泥鱼龙的上等鳍"
+      }
+    ],
+    "unlock_monster_id": "em108_00",
+    "unlock_monster": "泥鱼龙"
+  },
+  "59": {
+    "id": 59,
+    "name": "快吃珠【2】",
+    "sort_id": 3130,
+    "rare": 5,
+    "icon_color": 5,
+    "base_price": 750,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 59,
+        "level": 1,
+        "name": "快吃"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 2,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 647,
+        "count": 2,
+        "name": "蛮颚龙的锐牙"
+      },
+      {
+        "item_id": 534,
+        "count": 1,
+        "name": "河童蛙的大嘴"
+      }
+    ],
+    "unlock_progress": "集会所任务 6星"
+  },
+  "60": {
+    "id": 60,
+    "name": "防音珠【3】",
+    "sort_id": 2260,
+    "rare": 5,
+    "icon_color": 1,
+    "base_price": 1000,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 60,
+        "level": 1,
+        "name": "耳塞"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 4,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 554,
+        "count": 4,
+        "name": "怨虎龙的坚壳"
+      },
+      {
+        "item_id": 334,
+        "count": 1,
+        "name": "轰龙的颚"
+      },
+      {
+        "item_id": 230,
+        "count": 1,
+        "name": "白兔兽的大耳"
+      }
+    ],
+    "unlock_monster_id": "em089_00",
+    "unlock_monster": "怨虎龙"
+  },
+  "61": {
+    "id": 61,
+    "name": "防风珠【1】",
+    "sort_id": 3080,
+    "rare": 5,
+    "icon_color": 1,
+    "base_price": 750,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 61,
+        "level": 1,
+        "name": "风压耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 1,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 279,
+        "count": 2,
+        "name": "岩龙的坚壳"
+      },
+      {
+        "item_id": 532,
+        "count": 2,
+        "name": "河童蛙的苔坚甲"
+      }
+    ],
+    "unlock_progress": "HR6 解禁 (通关雷神龙)"
+  },
+  "62": {
+    "id": 62,
+    "name": "耐震珠【2】",
+    "sort_id": 2250,
+    "rare": 5,
+    "icon_color": 2,
+    "base_price": 1000,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 62,
+        "level": 1,
+        "name": "耐震"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 2,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 319,
+        "count": 2,
+        "name": "角龙的坚甲"
+      },
+      {
+        "item_id": 658,
+        "count": 1,
+        "name": "坚硬的巨骨"
+      },
+      {
+        "item_id": 532,
+        "count": 2,
+        "name": "河童蛙的苔坚甲"
+      }
+    ],
+    "unlock_monster_id": "em097_00",
+    "unlock_monster": "雪鬼兽"
+  },
+  "63": {
+    "id": 63,
+    "name": "泡沫珠【2】",
+    "sort_id": 3010,
+    "rare": 5,
+    "icon_color": 1,
+    "base_price": 750,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 63,
+        "level": 1,
+        "name": "泡沫之舞"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 1,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 308,
+        "count": 2,
+        "name": "上等起泡滑液"
+      },
+      {
+        "item_id": 451,
+        "count": 2,
+        "name": "大水袋"
+      }
+    ],
+    "unlock_monster_id": "em082_00",
+    "unlock_monster": "泡狐龙"
+  },
+  "64": {
+    "id": 64,
+    "name": "回避珠【2】",
+    "sort_id": 3050,
+    "rare": 5,
+    "icon_color": 12,
+    "base_price": 750,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 64,
+        "level": 1,
+        "name": "回避性能"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 2,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 268,
+        "count": 2,
+        "name": "冰牙龙的锐爪"
+      },
+      {
+        "item_id": 615,
+        "count": 2,
+        "name": "飞雷龙的上等毛皮"
+      },
+      {
+        "item_id": 311,
+        "count": 1,
+        "name": "火龙的坚壳"
+      }
+    ],
+    "unlock_monster_id": "em002_00",
+    "unlock_monster": "火龙"
+  },
+  "65": {
+    "id": 65,
+    "name": "跳跃珠【2】",
+    "sort_id": 3040,
+    "rare": 5,
+    "icon_color": 12,
+    "base_price": 750,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 65,
+        "level": 1,
+        "name": "回避距离提升"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 2,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 302,
+        "count": 4,
+        "name": "雷狼龙的高电壳"
+      },
+      {
+        "item_id": 613,
+        "count": 2,
+        "name": "飞雷龙的上等鳞"
+      }
+    ],
+    "unlock_monster_id": "em109_00",
+    "unlock_monster": "飞雷龙"
+  },
+  "66": {
+    "id": 66,
+    "name": "耐火珠【1】",
+    "sort_id": 5140,
+    "rare": 4,
+    "icon_color": 7,
+    "base_price": 250,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 66,
+        "level": 1,
+        "name": "火耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 1,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 527,
+        "count": 2,
+        "name": "伞鸟的上等鳞"
+      }
+    ],
+    "unlock_progress": "集会所任务 4星"
+  },
+  "67": {
+    "id": 67,
+    "name": "耐水珠【1】",
+    "sort_id": 5150,
+    "rare": 4,
+    "icon_color": 11,
+    "base_price": 250,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 67,
+        "level": 1,
+        "name": "水耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 1,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 531,
+        "count": 2,
+        "name": "河童蛙的上等皮"
+      }
+    ],
+    "unlock_progress": "集会所任务 4星"
+  },
+  "68": {
+    "id": 68,
+    "name": "耐冰珠【1】",
+    "sort_id": 5170,
+    "rare": 4,
+    "icon_color": 12,
+    "base_price": 250,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 68,
+        "level": 1,
+        "name": "冰耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 1,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 234,
+        "count": 2,
+        "name": "白兔兽的冻爪"
+      }
+    ],
+    "unlock_progress": "集会所任务 4星"
+  },
+  "69": {
+    "id": 69,
+    "name": "耐雷珠【1】",
+    "sort_id": 5160,
+    "rare": 4,
+    "icon_color": 4,
+    "base_price": 250,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 69,
+        "level": 1,
+        "name": "雷耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 1,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 236,
+        "count": 2,
+        "name": "珍珠色的柔皮"
+      }
+    ],
+    "unlock_progress": "集会所任务 4星"
+  },
+  "70": {
+    "id": 70,
+    "name": "耐龙珠【1】",
+    "sort_id": 5180,
+    "rare": 4,
+    "icon_color": 6,
+    "base_price": 250,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 70,
+        "level": 1,
+        "name": "龙耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 1,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 421,
+        "count": 2,
+        "name": "尖龙骨"
+      },
+      {
+        "item_id": 720,
+        "count": 2,
+        "name": "残缺龙骨"
+      }
+    ],
+    "unlock_progress": "集会所任务 4星"
+  },
+  "71": {
+    "id": 71,
+    "name": "耐属珠【2】",
+    "sort_id": 3120,
+    "rare": 5,
+    "icon_color": 10,
+    "base_price": 750,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 71,
+        "level": 1,
+        "name": "属性异常状态的耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 1,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 449,
+        "count": 1,
+        "name": "冻结袋"
+      },
+      {
+        "item_id": 447,
+        "count": 1,
+        "name": "电击袋"
+      },
+      {
+        "item_id": 451,
+        "count": 1,
+        "name": "大水袋"
+      }
+    ],
+    "unlock_progress": "集会所任务 6星"
+  },
+  "72": {
+    "id": 72,
+    "name": "耐毒珠【1】",
+    "sort_id": 5130,
+    "rare": 4,
+    "icon_color": 9,
+    "base_price": 250,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 72,
+        "level": 1,
+        "name": "毒耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 1,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 250,
+        "count": 2,
+        "name": "毒狗龙王的上等皮"
+      },
+      {
+        "item_id": 393,
+        "count": 2,
+        "name": "毒狗龙的上等鳞"
+      }
+    ],
+    "unlock_progress": "集会所任务 4星"
+  },
+  "73": {
+    "id": 73,
+    "name": "耐麻珠【1】",
+    "sort_id": 5120,
+    "rare": 4,
+    "icon_color": 5,
+    "base_price": 250,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 73,
+        "level": 1,
+        "name": "麻痹耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 1,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 373,
+        "count": 3,
+        "name": "飞甲虫的坚壳"
+      },
+      {
+        "item_id": 375,
+        "count": 1,
+        "name": "飞甲虫的麻痹针"
+      }
+    ],
+    "unlock_progress": "集会所任务 4星"
+  },
+  "74": {
+    "id": 74,
+    "name": "耐眠珠【1】",
+    "sort_id": 5110,
+    "rare": 4,
+    "icon_color": 12,
+    "base_price": 250,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 74,
+        "level": 1,
+        "name": "睡眠耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 1,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 224,
+        "count": 2,
+        "name": "眠狗龙王的上等皮"
+      },
+      {
+        "item_id": 391,
+        "count": 2,
+        "name": "眠狗龙的上等鳞"
+      }
+    ],
+    "unlock_progress": "集会所任务 4星"
+  },
+  "75": {
+    "id": 75,
+    "name": "耐绝珠【1】",
+    "sort_id": 2240,
+    "rare": 5,
+    "icon_color": 4,
+    "base_price": 1000,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 75,
+        "level": 1,
+        "name": "昏厥耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 2,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 573,
+        "count": 2,
+        "name": "妃蜘蛛的坚壳"
+      },
+      {
+        "item_id": 561,
+        "count": 2,
+        "name": "泥翁龙的坚壳"
+      }
+    ],
+    "unlock_progress": "集会所任务 7星"
+  },
+  "76": {
+    "id": 76,
+    "name": "泥雪珠【1】",
+    "sort_id": 5040,
+    "rare": 4,
+    "icon_color": 2,
+    "base_price": 250,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 76,
+        "level": 1,
+        "name": "泥雪耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 1,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 232,
+        "count": 2,
+        "name": "白兔兽的坚腹甲"
+      },
+      {
+        "item_id": 240,
+        "count": 1,
+        "name": "土砂龙的甲壳"
+      }
+    ],
+    "unlock_progress": "集会所任务 4星"
+  },
+  "77": {
+    "id": 77,
+    "name": "耐爆珠【1】",
+    "sort_id": 5100,
+    "rare": 4,
+    "icon_color": 6,
+    "base_price": 250,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 77,
+        "level": 1,
+        "name": "爆破异常状态的耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 1,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 445,
+        "count": 2,
+        "name": "爆炎袋"
+      },
+      {
+        "item_id": 609,
+        "count": 2,
+        "name": "狸兽的引火液"
+      }
+    ],
+    "unlock_progress": "集会所任务 4星"
+  },
+  "78": {
+    "id": 78,
+    "name": "植学珠【1】",
+    "sort_id": 5090,
+    "rare": 4,
+    "icon_color": 8,
+    "base_price": 250,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 78,
+        "level": 1,
+        "name": "植生学"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 1,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 521,
+        "count": 2,
+        "name": "镰鼬龙王的上等毛"
+      }
+    ],
+    "unlock_progress": "集会所任务 4星"
+  },
+  "79": {
+    "id": 79,
+    "name": "地学珠【1】",
+    "sort_id": 5080,
+    "rare": 4,
+    "icon_color": 13,
+    "base_price": 250,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 79,
+        "level": 1,
+        "name": "地质学"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 1,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 629,
+        "count": 2,
+        "name": "搔鸟的上等鳞"
+      }
+    ],
+    "unlock_progress": "集会所任务 4星"
+  },
+  "80": {
+    "id": 80,
+    "name": "重击珠【2】",
+    "sort_id": 3110,
+    "rare": 5,
+    "icon_color": 2,
+    "base_price": 750,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 80,
+        "level": 1,
+        "name": "破坏王"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 1,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 301,
+        "count": 2,
+        "name": "雷狼龙的尖爪"
+      },
+      {
+        "item_id": 272,
+        "count": 1,
+        "name": "琥珀色的锐牙"
+      },
+      {
+        "item_id": 320,
+        "count": 1,
+        "name": "角龙的尾甲"
+      }
+    ],
+    "unlock_progress": "集会所任务 6星"
+  },
+  "83": {
+    "id": 83,
+    "name": "运气珠【3】",
+    "sort_id": 1020,
+    "rare": 7,
+    "icon_color": 4,
+    "base_price": 2000,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 83,
+        "level": 1,
+        "name": "幸运"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 8,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 341,
+        "count": 6,
+        "name": "霞龙的上等皮"
+      },
+      {
+        "item_id": 625,
+        "count": 4,
+        "name": "霞龙的翼"
+      },
+      {
+        "item_id": 565,
+        "count": 1,
+        "name": "泥翁龙的黄玉"
+      }
+    ],
+    "unlock_monster_id": "em025_00",
+    "unlock_monster": "霞龙"
+  },
+  "84": {
+    "id": 84,
+    "name": "打磨珠【1】",
+    "sort_id": 4020,
+    "rare": 5,
+    "icon_color": 4,
+    "base_price": 500,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 84,
+        "level": 1,
+        "name": "砥石使用高速化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 2,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 1028,
+        "count": 2,
+        "name": "火龙的锐翼爪"
+      },
+      {
+        "item_id": 523,
+        "count": 1,
+        "name": "镰鼬龙王上等刃尾"
+      }
+    ],
+    "unlock_monster_id": "em001_00",
+    "unlock_monster": "雌火龙"
+  },
+  "85": {
+    "id": 85,
+    "name": "爆师珠【1】",
+    "sort_id": 4110,
+    "rare": 4,
+    "icon_color": 6,
+    "base_price": 500,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 85,
+        "level": 1,
+        "name": "炸弹客"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 1,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 445,
+        "count": 1,
+        "name": "爆炎袋"
+      },
+      {
+        "item_id": 178,
+        "count": 2,
+        "name": "怨虎龙的灵结晶"
+      }
+    ],
+    "unlock_progress": "集会所任务 5星"
+  },
+  "86": {
+    "id": 86,
+    "name": "茸好珠【3】",
+    "sort_id": 2020,
+    "rare": 7,
+    "icon_color": 9,
+    "base_price": 1500,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 86,
+        "level": 1,
+        "name": "最爱蘑菇"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 5,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 334,
+        "count": 1,
+        "name": "轰龙的颚"
+      },
+      {
+        "item_id": 647,
+        "count": 3,
+        "name": "蛮颚龙的锐牙"
+      },
+      {
+        "item_id": 690,
+        "count": 3,
+        "name": "曼陀罗"
+      }
+    ],
+    "unlock_monster_id": "em099_00",
+    "unlock_monster": "雷神龙"
+  },
+  "87": {
+    "id": 87,
+    "name": "持续珠【2】",
+    "sort_id": 4030,
+    "rare": 4,
+    "icon_color": 13,
+    "base_price": 500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 87,
+        "level": 1,
+        "name": "道具使用强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 1,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 257,
+        "count": 2,
+        "name": "水兽的上等鳞"
+      }
+    ],
+    "unlock_monster_id": "em047_00",
+    "unlock_monster": "水兽"
+  },
+  "88": {
+    "id": 88,
+    "name": "友爱珠【2】",
+    "sort_id": 3100,
+    "rare": 5,
+    "icon_color": 1,
+    "base_price": 750,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 88,
+        "level": 1,
+        "name": "广域化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 1,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 306,
+        "count": 1,
+        "name": "泡狐龙的尖爪"
+      },
+      {
+        "item_id": 283,
+        "count": 2,
+        "name": "迅龙的上等鳞"
+      },
+      {
+        "item_id": 9,
+        "count": 2,
+        "name": "生命粉尘"
+      }
+    ],
+    "unlock_progress": "集会所任务 6星"
+  },
+  "89": {
+    "id": 89,
+    "name": "节食珠【1】",
+    "sort_id": 5030,
+    "rare": 4,
+    "icon_color": 13,
+    "base_price": 250,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 89,
+        "level": 1,
+        "name": "满足感"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 2,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 627,
+        "count": 2,
+        "name": "怪异的锐牙"
+      },
+      {
+        "item_id": 633,
+        "count": 1,
+        "name": "搔鸟的大喙"
+      }
+    ],
+    "unlock_monster_id": "em003_00",
+    "unlock_monster": "奇怪龙"
+  },
+  "90": {
+    "id": 90,
+    "name": "底力珠【2】",
+    "sort_id": 2100,
+    "rare": 6,
+    "icon_color": 7,
+    "base_price": 1500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 90,
+        "level": 1,
+        "name": "火场怪力"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 5,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 339,
+        "count": 2,
+        "name": "金狮子的尾巴"
+      },
+      {
+        "item_id": 315,
+        "count": 2,
+        "name": "优质的弯曲角"
+      },
+      {
+        "item_id": 325,
+        "count": 2,
+        "name": "轰龙的上等鳞"
+      }
+    ],
+    "unlock_monster_id": "em007_00",
+    "unlock_monster": "角龙"
+  },
+  "91": {
+    "id": 91,
+    "name": "逆境珠【2】",
+    "sort_id": 5070,
+    "rare": 4,
+    "icon_color": 6,
+    "base_price": 250,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 91,
+        "level": 1,
+        "name": "不屈"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 1,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 220,
+        "count": 2,
+        "name": "青熊兽的坚壳"
+      }
+    ],
+    "unlock_progress": "集会所任务 4星"
+  },
+  "92": {
+    "id": 92,
+    "name": "耐冲珠【1】",
+    "sort_id": 3060,
+    "rare": 5,
+    "icon_color": 2,
+    "base_price": 750,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 92,
+        "level": 1,
+        "name": "减轻胆怯"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 2,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 298,
+        "count": 2,
+        "name": "雷狼龙的坚壳"
+      },
+      {
+        "item_id": 306,
+        "count": 2,
+        "name": "泡狐龙的尖爪"
+      }
+    ],
+    "unlock_monster_id": "em057_00",
+    "unlock_monster": "雷狼龙"
+  },
+  "93": {
+    "id": 93,
+    "name": "强跳珠【3】",
+    "sort_id": 1040,
+    "rare": 7,
+    "icon_color": 11,
+    "base_price": 1500,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 93,
+        "level": 1,
+        "name": "跳跃铁人"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 5,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 655,
+        "count": 3,
+        "name": "爆鳞龙的翼"
+      },
+      {
+        "item_id": 312,
+        "count": 1,
+        "name": "火龙的翼"
+      },
+      {
+        "item_id": 544,
+        "count": 2,
+        "name": "天狗兽的坚冠帽"
+      }
+    ],
+    "unlock_progress": "集会所任务 上位解锁"
+  },
+  "94": {
+    "id": 94,
+    "name": "剥皮珠【1】",
+    "sort_id": 5000,
+    "rare": 4,
+    "icon_color": 2,
+    "base_price": 250,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 94,
+        "level": 1,
+        "name": "剥取铁人"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 1,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 532,
+        "count": 2,
+        "name": "河童蛙的苔坚甲"
+      }
+    ],
+    "unlock_monster_id": "em092_00",
+    "unlock_monster": "河童蛙"
+  },
+  "95": {
+    "id": 95,
+    "name": "无食珠【1】",
+    "sort_id": 5020,
+    "rare": 4,
+    "icon_color": 5,
+    "base_price": 250,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 95,
+        "level": 1,
+        "name": "饥饿耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 1,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 534,
+        "count": 1,
+        "name": "河童蛙的大嘴"
+      }
+    ],
+    "unlock_monster_id": "em092_00",
+    "unlock_monster": "河童蛙"
+  },
+  "96": {
+    "id": 96,
+    "name": "飞跃珠【1】",
+    "sort_id": 5060,
+    "rare": 4,
+    "icon_color": 12,
+    "base_price": 250,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 96,
+        "level": 1,
+        "name": "飞身跃入"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 1,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 380,
+        "count": 2,
+        "name": "野猪的上等毛皮"
+      },
+      {
+        "item_id": 425,
+        "count": 1,
+        "name": "坚固的骨"
+      }
+    ],
+    "unlock_progress": "集会所任务 4星"
+  },
+  "97": {
+    "id": 97,
+    "name": "佯动珠【1】",
+    "sort_id": 5050,
+    "rare": 4,
+    "icon_color": 9,
+    "base_price": 250,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 97,
+        "level": 1,
+        "name": "佯动"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 1,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 410,
+        "count": 3,
+        "name": "翼蛇龙的上等皮"
+      }
+    ],
+    "unlock_progress": "集会所任务 4星"
+  },
+  "98": {
+    "id": 98,
+    "name": "骑惯珠【2】",
+    "sort_id": 5010,
+    "rare": 4,
+    "icon_color": 11,
+    "base_price": 250,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 98,
+        "level": 1,
+        "name": "骑乘名人"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 1,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 528,
+        "count": 2,
+        "name": "伞鸟的上等羽鳞"
+      }
+    ],
+    "unlock_monster_id": "em091_00",
+    "unlock_monster": "伞鸟"
+  },
+  "103": {
+    "id": 103,
+    "name": "翔虫珠【2】",
+    "sort_id": 4010,
+    "rare": 4,
+    "icon_color": 12,
+    "base_price": 500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 103,
+        "level": 1,
+        "name": "翔虫使"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 2,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 545,
+        "count": 2,
+        "name": "天狗兽的上等臂羽"
+      },
+      {
+        "item_id": 453,
+        "count": 2,
+        "name": "怪物浓液"
+      }
+    ],
+    "unlock_monster_id": "em090_00",
+    "unlock_monster": "天狗兽"
+  },
+  "104": {
+    "id": 104,
+    "name": "走壁珠【2】",
+    "sort_id": 4000,
+    "rare": 4,
+    "icon_color": 8,
+    "base_price": 500,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 104,
+        "level": 1,
+        "name": "墙面移动"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 2,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 547,
+        "count": 2,
+        "name": "天狗兽的尖爪"
+      },
+      {
+        "item_id": 378,
+        "count": 2,
+        "name": "优质的腹袋"
+      }
+    ],
+    "unlock_monster_id": "em090_00",
+    "unlock_monster": "天狗兽"
+  },
+  "105": {
+    "id": 105,
+    "name": "逆袭珠【2】",
+    "sort_id": 3000,
+    "rare": 5,
+    "icon_color": 7,
+    "base_price": 750,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 105,
+        "level": 1,
+        "name": "逆袭"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 2,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 310,
+        "count": 3,
+        "name": "火龙的上等鳞"
+      },
+      {
+        "item_id": 580,
+        "count": 1,
+        "name": "风神龙的尖角"
+      }
+    ],
+    "unlock_progress": "HR6 解禁 (通关雷神龙)"
+  },
+  "106": {
+    "id": 106,
+    "name": "速变珠【2】",
+    "sort_id": 2200,
+    "rare": 5,
+    "icon_color": 11,
+    "base_price": 1000,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 106,
+        "level": 1,
+        "name": "高速变形"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1036,
+        "count": 3,
+        "name": "修罗原珠"
+      },
+      {
+        "item_id": 330,
+        "count": 2,
+        "name": "轰龙的尖爪"
+      },
+      {
+        "item_id": 550,
+        "count": 1,
+        "name": "人鱼龙的尖钩爪"
+      },
+      {
+        "item_id": 574,
+        "count": 2,
+        "name": "妃蜘蛛的绢丝"
+      }
+    ],
+    "unlock_monster_id": "em032_00",
+    "unlock_monster": "轰龙"
+  },
+  "107": {
+    "id": 107,
+    "name": "鬼火珠【3】",
+    "sort_id": 1030,
+    "rare": 6,
+    "icon_color": 9,
+    "base_price": 1500,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 107,
+        "level": 1,
+        "name": "鬼火缠"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 5,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 559,
+        "count": 3,
+        "name": "怨虎龙的魂结晶"
+      },
+      {
+        "item_id": 310,
+        "count": 2,
+        "name": "火龙的上等鳞"
+      },
+      {
+        "item_id": 575,
+        "count": 2,
+        "name": "妃蜘蛛的灯腹"
+      }
+    ],
+    "unlock_progress": "集会所任务 上位解锁"
+  },
+  "10001": {
+    "id": 10001,
+    "name": "耐火珠Ⅲ【4】",
+    "sort_id": 918,
+    "rare": 8,
+    "icon_color": 7,
+    "base_price": 3000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 66,
+        "level": 3,
+        "name": "火耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 6,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2275,
+        "count": 1,
+        "name": "搔鸟的特大饰羽"
+      },
+      {
+        "item_id": 2360,
+        "count": 3,
+        "name": "强龙骨"
+      }
+    ],
+    "unlock_progress": "大师任务 1星"
+  },
+  "10002": {
+    "id": 10002,
+    "name": "耐水珠Ⅲ【4】",
+    "sort_id": 919,
+    "rare": 8,
+    "icon_color": 11,
+    "base_price": 3000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 67,
+        "level": 3,
+        "name": "水耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 6,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2103,
+        "count": 1,
+        "name": "伟大的喙"
+      },
+      {
+        "item_id": 2088,
+        "count": 3,
+        "name": "海绵质的厚皮"
+      }
+    ],
+    "unlock_progress": "大师任务 1星"
+  },
+  "10003": {
+    "id": 10003,
+    "name": "耐冰珠Ⅲ【4】",
+    "sort_id": 921,
+    "rare": 8,
+    "icon_color": 12,
+    "base_price": 3000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 68,
+        "level": 3,
+        "name": "冰耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 6,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2094,
+        "count": 1,
+        "name": "伟大的头冠"
+      },
+      {
+        "item_id": 2368,
+        "count": 3,
+        "name": "极品毛皮"
+      }
+    ],
+    "unlock_progress": "大师任务 1星"
+  },
+  "10004": {
+    "id": 10004,
+    "name": "耐雷珠Ⅲ【4】",
+    "sort_id": 920,
+    "rare": 8,
+    "icon_color": 4,
+    "base_price": 3000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 69,
+        "level": 3,
+        "name": "雷耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 6,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2332,
+        "count": 2,
+        "name": "巨蜂的斩羽"
+      },
+      {
+        "item_id": 2369,
+        "count": 2,
+        "name": "怪物特浓体液"
+      }
+    ],
+    "unlock_progress": "大师任务 1星"
+  },
+  "10005": {
+    "id": 10005,
+    "name": "耐龙珠Ⅲ【4】",
+    "sort_id": 922,
+    "rare": 8,
+    "icon_color": 6,
+    "base_price": 3000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 70,
+        "level": 3,
+        "name": "龙耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 6,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2330,
+        "count": 2,
+        "name": "巨甲虫的重壳"
+      },
+      {
+        "item_id": 2690,
+        "count": 5,
+        "name": "厚重龙骨"
+      }
+    ],
+    "unlock_progress": "大师任务 1星"
+  },
+  "10006": {
+    "id": 10006,
+    "name": "耐毒珠Ⅲ【4】",
+    "sort_id": 307,
+    "rare": 10,
+    "icon_color": 9,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 72,
+        "level": 3,
+        "name": "毒耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 3,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2007,
+        "count": 3,
+        "name": "雌火龙的厚鳞"
+      },
+      {
+        "item_id": 2876,
+        "count": 7,
+        "name": "怪异化的凶鳞"
+      }
+    ],
+    "unlock_item_id": 2876,
+    "unlock_item": "怪异化的凶鳞"
+  },
+  "10007": {
+    "id": 10007,
+    "name": "耐麻珠Ⅲ【4】",
+    "sort_id": 306,
+    "rare": 10,
+    "icon_color": 5,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 73,
+        "level": 3,
+        "name": "麻痹耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 3,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2017,
+        "count": 3,
+        "name": "珍珠色的艳皮"
+      },
+      {
+        "item_id": 2878,
+        "count": 7,
+        "name": "怪异化的凶角"
+      }
+    ],
+    "unlock_item_id": 2878,
+    "unlock_item": "怪异化的凶角"
+  },
+  "10008": {
+    "id": 10008,
+    "name": "耐眠珠Ⅲ【4】",
+    "sort_id": 305,
+    "rare": 10,
+    "icon_color": 12,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 74,
+        "level": 3,
+        "name": "睡眠耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 3,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2199,
+        "count": 3,
+        "name": "人鱼龙的厚鳞"
+      },
+      {
+        "item_id": 2877,
+        "count": 7,
+        "name": "怪异化的凶骨"
+      }
+    ],
+    "unlock_item_id": 2877,
+    "unlock_item": "怪异化的凶骨"
+  },
+  "10009": {
+    "id": 10009,
+    "name": "耐爆珠Ⅲ【4】",
+    "sort_id": 304,
+    "rare": 10,
+    "icon_color": 6,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 77,
+        "level": 3,
+        "name": "爆破异常状态的耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 3,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2187,
+        "count": 3,
+        "name": "绯天狗兽的豪臂羽"
+      },
+      {
+        "item_id": 2878,
+        "count": 7,
+        "name": "怪异化的凶角"
+      }
+    ],
+    "unlock_item_id": 2878,
+    "unlock_item": "怪异化的凶角"
+  },
+  "10010": {
+    "id": 10010,
+    "name": "植学珠Ⅲ【4】",
+    "sort_id": 917,
+    "rare": 8,
+    "icon_color": 8,
+    "base_price": 3000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 78,
+        "level": 3,
+        "name": "植生学"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 6,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2248,
+        "count": 3,
+        "name": "镰鼬龙王的厚毛"
+      }
+    ],
+    "unlock_progress": "大师任务 1星"
+  },
+  "10011": {
+    "id": 10011,
+    "name": "地学珠Ⅲ【4】",
+    "sort_id": 916,
+    "rare": 8,
+    "icon_color": 13,
+    "base_price": 3000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 79,
+        "level": 3,
+        "name": "地质学"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 6,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2272,
+        "count": 3,
+        "name": "搔鸟的厚鳞"
+      },
+      {
+        "item_id": 2695,
+        "count": 2,
+        "name": "埋藏的古龙骨骸"
+      }
+    ],
+    "unlock_progress": "大师任务 1星"
+  },
+  "10012": {
+    "id": 10012,
+    "name": "节食珠Ⅲ【4】",
+    "sort_id": 809,
+    "rare": 8,
+    "icon_color": 13,
+    "base_price": 3000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 89,
+        "level": 3,
+        "name": "满足感"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 8,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2018,
+        "count": 2,
+        "name": "怪异的重牙"
+      },
+      {
+        "item_id": 2274,
+        "count": 1,
+        "name": "洞穿之巨大喙"
+      }
+    ],
+    "unlock_progress": "大师任务 2星"
+  },
+  "10013": {
+    "id": 10013,
+    "name": "夺气珠Ⅲ【4】",
+    "sort_id": 418,
+    "rare": 9,
+    "icon_color": 10,
+    "base_price": 4000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 41,
+        "level": 3,
+        "name": "夺取耐力"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 3,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2085,
+        "count": 2,
+        "name": "土砂龙的刚爪"
+      },
+      {
+        "item_id": 2586,
+        "count": 7,
+        "name": "怪异化的龙骨"
+      }
+    ],
+    "unlock_item_id": 2586,
+    "unlock_item": "怪异化的龙骨"
+  },
+  "10014": {
+    "id": 10014,
+    "name": "持续珠Ⅲ【4】",
+    "sort_id": 915,
+    "rare": 8,
+    "icon_color": 13,
+    "base_price": 3000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 87,
+        "level": 3,
+        "name": "道具使用强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 6,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2089,
+        "count": 2,
+        "name": "水兽的厚鳞"
+      }
+    ],
+    "unlock_progress": "大师任务 1星"
+  },
+  "10015": {
+    "id": 10015,
+    "name": "无食珠Ⅲ【4】",
+    "sort_id": 914,
+    "rare": 8,
+    "icon_color": 5,
+    "base_price": 3000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 95,
+        "level": 3,
+        "name": "饥饿耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 6,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2197,
+        "count": 1,
+        "name": "河童蛙的刚嘴"
+      },
+      {
+        "item_id": 2341,
+        "count": 5,
+        "name": "盾蟹的极小壳"
+      }
+    ],
+    "unlock_progress": "大师任务 1星"
+  },
+  "10016": {
+    "id": 10016,
+    "name": "火炎珠Ⅱ【2】",
+    "sort_id": 909,
+    "rare": 8,
+    "icon_color": 7,
+    "base_price": 3000,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 12,
+        "level": 2,
+        "name": "火属性攻击强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 6,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2375,
+        "count": 3,
+        "name": "业炎袋"
+      },
+      {
+        "item_id": 2474,
+        "count": 2,
+        "name": "妖辉石"
+      }
+    ],
+    "unlock_progress": "大师任务 1星"
+  },
+  "10017": {
+    "id": 10017,
+    "name": "火炎珠Ⅲ【3】",
+    "sort_id": 419,
+    "rare": 9,
+    "icon_color": 7,
+    "base_price": 4000,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 12,
+        "level": 3,
+        "name": "火属性攻击强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2805,
+        "count": 4,
+        "name": "金刚原珠"
+      },
+      {
+        "item_id": 2217,
+        "count": 2,
+        "name": "炽妃蜘蛛的炫灯腹"
+      },
+      {
+        "item_id": 2585,
+        "count": 7,
+        "name": "怪异化的皮"
+      }
+    ],
+    "unlock_item_id": 2585,
+    "unlock_item": "怪异化的皮"
+  },
+  "10018": {
+    "id": 10018,
+    "name": "火炎珠Ⅳ【4】",
+    "sort_id": 250,
+    "rare": 10,
+    "icon_color": 7,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 12,
+        "level": 4,
+        "name": "火属性攻击强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 4,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2015,
+        "count": 1,
+        "name": "火龙的天鳞"
+      },
+      {
+        "item_id": 2902,
+        "count": 6,
+        "name": "怪异化的厚皮"
+      }
+    ],
+    "unlock_item_id": 2902,
+    "unlock_item": "怪异化的厚皮"
+  },
+  "10019": {
+    "id": 10019,
+    "name": "流水珠Ⅱ【2】",
+    "sort_id": 910,
+    "rare": 8,
+    "icon_color": 11,
+    "base_price": 3000,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 13,
+        "level": 2,
+        "name": "水属性攻击强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 6,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2378,
+        "count": 3,
+        "name": "特大水袋"
+      },
+      {
+        "item_id": 2698,
+        "count": 4,
+        "name": "长满苔藓的重土骨"
+      }
+    ],
+    "unlock_progress": "大师任务 1星"
+  },
+  "10020": {
+    "id": 10020,
+    "name": "流水珠Ⅲ【3】",
+    "sort_id": 420,
+    "rare": 9,
+    "icon_color": 11,
+    "base_price": 4000,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 13,
+        "level": 3,
+        "name": "水属性攻击强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2805,
+        "count": 4,
+        "name": "金刚原珠"
+      },
+      {
+        "item_id": 2277,
+        "count": 2,
+        "name": "泥鱼龙的重壳"
+      },
+      {
+        "item_id": 2585,
+        "count": 7,
+        "name": "怪异化的皮"
+      }
+    ],
+    "unlock_item_id": 2585,
+    "unlock_item": "怪异化的皮"
+  },
+  "10021": {
+    "id": 10021,
+    "name": "流水珠Ⅳ【4】",
+    "sort_id": 251,
+    "rare": 10,
+    "icon_color": 11,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 13,
+        "level": 4,
+        "name": "水属性攻击强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 4,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2148,
+        "count": 1,
+        "name": "泡狐龙的天鳞"
+      },
+      {
+        "item_id": 2904,
+        "count": 6,
+        "name": "怪异化的净浓血"
+      }
+    ],
+    "unlock_item_id": 2904,
+    "unlock_item": "怪异化的净浓血"
+  },
+  "10022": {
+    "id": 10022,
+    "name": "冰结珠Ⅱ【2】",
+    "sort_id": 912,
+    "rare": 8,
+    "icon_color": 12,
+    "base_price": 3000,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 14,
+        "level": 2,
+        "name": "冰属性攻击强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 6,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2107,
+        "count": 2,
+        "name": "白兔兽的豪刚毛"
+      },
+      {
+        "item_id": 2694,
+        "count": 2,
+        "name": "结冻的重冰骨"
+      }
+    ],
+    "unlock_progress": "大师任务 1星"
+  },
+  "10023": {
+    "id": 10023,
+    "name": "冰结珠Ⅲ【3】",
+    "sort_id": 422,
+    "rare": 9,
+    "icon_color": 12,
+    "base_price": 4000,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 14,
+        "level": 3,
+        "name": "冰属性攻击强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2805,
+        "count": 4,
+        "name": "金刚原珠"
+      },
+      {
+        "item_id": 2204,
+        "count": 2,
+        "name": "冰人鱼龙的冻鳞"
+      },
+      {
+        "item_id": 2585,
+        "count": 7,
+        "name": "怪异化的皮"
+      }
+    ],
+    "unlock_item_id": 2585,
+    "unlock_item": "怪异化的皮"
+  },
+  "10024": {
+    "id": 10024,
+    "name": "冰结珠Ⅳ【4】",
+    "sort_id": 252,
+    "rare": 10,
+    "icon_color": 12,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 14,
+        "level": 4,
+        "name": "冰属性攻击强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 4,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2304,
+        "count": 1,
+        "name": "冰狼龙的秘冰玉"
+      },
+      {
+        "item_id": 2905,
+        "count": 6,
+        "name": "怪异化的厚鳞"
+      }
+    ],
+    "unlock_item_id": 2905,
+    "unlock_item": "怪异化的厚鳞"
+  },
+  "10025": {
+    "id": 10025,
+    "name": "雷光珠Ⅱ【2】",
+    "sort_id": 911,
+    "rare": 8,
+    "icon_color": 4,
+    "base_price": 3000,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 15,
+        "level": 2,
+        "name": "雷属性攻击强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 6,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2376,
+        "count": 3,
+        "name": "雷电袋"
+      },
+      {
+        "item_id": 2685,
+        "count": 4,
+        "name": "碧蓝矿石"
+      }
+    ],
+    "unlock_progress": "大师任务 2星"
+  },
+  "10026": {
+    "id": 10026,
+    "name": "雷光珠Ⅲ【3】",
+    "sort_id": 421,
+    "rare": 9,
+    "icon_color": 4,
+    "base_price": 4000,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 15,
+        "level": 3,
+        "name": "雷属性攻击强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2805,
+        "count": 4,
+        "name": "金刚原珠"
+      },
+      {
+        "item_id": 2017,
+        "count": 2,
+        "name": "珍珠色的艳皮"
+      },
+      {
+        "item_id": 2584,
+        "count": 7,
+        "name": "怪异化的骨"
+      }
+    ],
+    "unlock_item_id": 2584,
+    "unlock_item": "怪异化的骨"
+  },
+  "10027": {
+    "id": 10027,
+    "name": "雷光珠Ⅳ【4】",
+    "sort_id": 253,
+    "rare": 10,
+    "icon_color": 4,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 15,
+        "level": 4,
+        "name": "雷属性攻击强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 4,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2101,
+        "count": 1,
+        "name": "雷狼龙的天玉"
+      },
+      {
+        "item_id": 2907,
+        "count": 6,
+        "name": "怪异化的重牙"
+      }
+    ],
+    "unlock_item_id": 2907,
+    "unlock_item": "怪异化的重牙"
+  },
+  "10028": {
+    "id": 10028,
+    "name": "破龙珠Ⅱ【2】",
+    "sort_id": 913,
+    "rare": 8,
+    "icon_color": 6,
+    "base_price": 3000,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 16,
+        "level": 2,
+        "name": "龙属性攻击强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 6,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2006,
+        "count": 2,
+        "name": "雌火龙的重壳"
+      },
+      {
+        "item_id": 2695,
+        "count": 1,
+        "name": "埋藏的古龙骨骸"
+      }
+    ],
+    "unlock_progress": "大师任务 2星"
+  },
+  "10029": {
+    "id": 10029,
+    "name": "破龙珠Ⅲ【3】",
+    "sort_id": 423,
+    "rare": 9,
+    "icon_color": 6,
+    "base_price": 4000,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 16,
+        "level": 3,
+        "name": "龙属性攻击强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2805,
+        "count": 4,
+        "name": "金刚原珠"
+      },
+      {
+        "item_id": 2115,
+        "count": 2,
+        "name": "黑蚀龙的重壳"
+      },
+      {
+        "item_id": 2584,
+        "count": 7,
+        "name": "怪异化的骨"
+      }
+    ],
+    "unlock_item_id": 2584,
+    "unlock_item": "怪异化的骨"
+  },
+  "10030": {
+    "id": 10030,
+    "name": "破龙珠Ⅳ【4】",
+    "sort_id": 254,
+    "rare": 10,
+    "icon_color": 6,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 16,
+        "level": 4,
+        "name": "龙属性攻击强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 4,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2119,
+        "count": 1,
+        "name": "黑蚀龙的天鳞"
+      },
+      {
+        "item_id": 2893,
+        "count": 6,
+        "name": "怪异化的凶硬骨"
+      }
+    ],
+    "unlock_item_id": 2893,
+    "unlock_item": "怪异化的凶硬骨"
+  },
+  "10031": {
+    "id": 10031,
+    "name": "防御珠Ⅱ【2】",
+    "sort_id": 908,
+    "rare": 8,
+    "icon_color": 5,
+    "base_price": 3000,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 55,
+        "level": 2,
+        "name": "防御"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 6,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2084,
+        "count": 2,
+        "name": "土砂龙的重甲"
+      },
+      {
+        "item_id": 2690,
+        "count": 3,
+        "name": "厚重龙骨"
+      }
+    ],
+    "unlock_progress": "大师任务 1星"
+  },
+  "10032": {
+    "id": 10032,
+    "name": "防御珠Ⅲ【3】",
+    "sort_id": 700,
+    "rare": 9,
+    "icon_color": 5,
+    "base_price": 4000,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 55,
+        "level": 3,
+        "name": "防御"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2805,
+        "count": 2,
+        "name": "金刚原珠"
+      },
+      {
+        "item_id": 2361,
+        "count": 3,
+        "name": "重龙骨"
+      },
+      {
+        "item_id": 2020,
+        "count": 2,
+        "name": "岩龙的重壳"
+      }
+    ],
+    "unlock_item_id": 2805,
+    "unlock_item": "金刚原珠"
+  },
+  "10033": {
+    "id": 10033,
+    "name": "防御珠Ⅴ【4】",
+    "sort_id": 501,
+    "rare": 10,
+    "icon_color": 5,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 55,
+        "level": 5,
+        "name": "防御"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 3,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2363,
+        "count": 3,
+        "name": "太古龙骨"
+      },
+      {
+        "item_id": 2024,
+        "count": 2,
+        "name": "角龙的重甲"
+      },
+      {
+        "item_id": 2869,
+        "count": 1,
+        "name": "霸王之证"
+      }
+    ],
+    "unlock_item_id": 2806,
+    "unlock_item": "明王原珠"
+  },
+  "10034": {
+    "id": 10034,
+    "name": "爆师珠Ⅲ【4】",
+    "sort_id": 907,
+    "rare": 8,
+    "icon_color": 6,
+    "base_price": 3000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 85,
+        "level": 3,
+        "name": "炸弹客"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 6,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2353,
+        "count": 1,
+        "name": "狸兽的发火液"
+      },
+      {
+        "item_id": 2375,
+        "count": 3,
+        "name": "业炎袋"
+      }
+    ],
+    "unlock_progress": "大师任务 1星"
+  },
+  "10035": {
+    "id": 10035,
+    "name": "打磨珠Ⅲ【4】",
+    "sort_id": 417,
+    "rare": 9,
+    "icon_color": 4,
+    "base_price": 4000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 84,
+        "level": 3,
+        "name": "砥石使用高速化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 3,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2132,
+        "count": 1,
+        "name": "千刃龙的断刀角"
+      },
+      {
+        "item_id": 2250,
+        "count": 1,
+        "name": "镰鼬龙王的砥刃尾"
+      },
+      {
+        "item_id": 2587,
+        "count": 7,
+        "name": "怪异化的血"
+      }
+    ],
+    "unlock_item_id": 2587,
+    "unlock_item": "怪异化的血"
+  },
+  "10036": {
+    "id": 10036,
+    "name": "治愈珠Ⅱ【4】",
+    "sort_id": 906,
+    "rare": 8,
+    "icon_color": 8,
+    "base_price": 3000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 57,
+        "level": 2,
+        "name": "体力回复量提升"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 6,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2873,
+        "count": 2,
+        "name": "草食种的大重骨"
+      },
+      {
+        "item_id": 2037,
+        "count": 1,
+        "name": "极品黑珍珠"
+      }
+    ],
+    "unlock_progress": "大师任务 1星"
+  },
+  "10037": {
+    "id": 10037,
+    "name": "体术珠Ⅱ【4】",
+    "sort_id": 413,
+    "rare": 9,
+    "icon_color": 5,
+    "base_price": 4000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 32,
+        "level": 2,
+        "name": "体术"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 4,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2111,
+        "count": 3,
+        "name": "赤甲兽的重壳"
+      },
+      {
+        "item_id": 2359,
+        "count": 3,
+        "name": "狡狗龙的厚鳞"
+      },
+      {
+        "item_id": 2589,
+        "count": 7,
+        "name": "怪异化的甲壳"
+      }
+    ],
+    "unlock_item_id": 2589,
+    "unlock_item": "怪异化的甲壳"
+  },
+  "10038": {
+    "id": 10038,
+    "name": "翔虫珠Ⅱ【4】",
+    "sort_id": 407,
+    "rare": 9,
+    "icon_color": 12,
+    "base_price": 4000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 103,
+        "level": 2,
+        "name": "翔虫使"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 6,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2213,
+        "count": 2,
+        "name": "炽妃蜘蛛的艳绢丝"
+      },
+      {
+        "item_id": 2369,
+        "count": 2,
+        "name": "怪物特浓体液"
+      },
+      {
+        "item_id": 2590,
+        "count": 7,
+        "name": "怪异化的牙"
+      }
+    ],
+    "unlock_item_id": 2590,
+    "unlock_item": "怪异化的牙"
+  },
+  "10039": {
+    "id": 10039,
+    "name": "走壁珠Ⅲ【4】",
+    "sort_id": 806,
+    "rare": 8,
+    "icon_color": 8,
+    "base_price": 3000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 104,
+        "level": 3,
+        "name": "墙面移动"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 8,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2018,
+        "count": 2,
+        "name": "怪异的重牙"
+      },
+      {
+        "item_id": 2344,
+        "count": 3,
+        "name": "极品腹袋"
+      }
+    ],
+    "unlock_progress": "大师任务 2星"
+  },
+  "10040": {
+    "id": 10040,
+    "name": "毒珠Ⅲ【4】",
+    "sort_id": 310,
+    "rare": 10,
+    "icon_color": 9,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 17,
+        "level": 3,
+        "name": "毒属性强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 4,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2820,
+        "count": 2,
+        "name": "月迅龙的重尾棘"
+      },
+      {
+        "item_id": 2267,
+        "count": 3,
+        "name": "毒妖鸟的厚鳞"
+      }
+    ],
+    "unlock_monster_id": "em037_02",
+    "unlock_monster": "月迅龙"
+  },
+  "10041": {
+    "id": 10041,
+    "name": "早复珠Ⅲ【4】",
+    "sort_id": 905,
+    "rare": 8,
+    "icon_color": 8,
+    "base_price": 3000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 58,
+        "level": 3,
+        "name": "回复速度"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 6,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2084,
+        "count": 3,
+        "name": "土砂龙的重甲"
+      },
+      {
+        "item_id": 2345,
+        "count": 2,
+        "name": "咬鱼的厚皮"
+      }
+    ],
+    "unlock_progress": "大师任务 1星"
+  },
+  "10042": {
+    "id": 10042,
+    "name": "加护珠Ⅱ【4】",
+    "sort_id": 904,
+    "rare": 8,
+    "icon_color": 1,
+    "base_price": 3000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 56,
+        "level": 2,
+        "name": "精灵加护"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 6,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2088,
+        "count": 2,
+        "name": "海绵质的厚皮"
+      },
+      {
+        "item_id": 2693,
+        "count": 3,
+        "name": "扭曲的重怪骨"
+      }
+    ],
+    "unlock_progress": "大师任务 1星"
+  },
+  "10043": {
+    "id": 10043,
+    "name": "快吃珠Ⅱ【4】",
+    "sort_id": 903,
+    "rare": 8,
+    "icon_color": 5,
+    "base_price": 3000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 59,
+        "level": 2,
+        "name": "快吃"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 6,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2197,
+        "count": 1,
+        "name": "河童蛙的刚嘴"
+      },
+      {
+        "item_id": 2334,
+        "count": 3,
+        "name": "蓝速龙的厚鳞"
+      }
+    ],
+    "unlock_progress": "大师任务 1星"
+  },
+  "10044": {
+    "id": 10044,
+    "name": "耐属珠Ⅱ【4】",
+    "sort_id": 416,
+    "rare": 9,
+    "icon_color": 10,
+    "base_price": 4000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 71,
+        "level": 2,
+        "name": "属性异常状态的耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2805,
+        "count": 5,
+        "name": "金刚原珠"
+      },
+      {
+        "item_id": 2170,
+        "count": 2,
+        "name": "怨虎龙的魂魄结晶"
+      },
+      {
+        "item_id": 2123,
+        "count": 1,
+        "name": "天廻龙的光虹翼"
+      },
+      {
+        "item_id": 2587,
+        "count": 7,
+        "name": "怪异化的血"
+      }
+    ],
+    "unlock_item_id": 2587,
+    "unlock_item": "怪异化的血"
+  },
+  "10045": {
+    "id": 10045,
+    "name": "重击珠Ⅱ【4】",
+    "sort_id": 313,
+    "rare": 10,
+    "icon_color": 2,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 80,
+        "level": 2,
+        "name": "破坏王"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 4,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2814,
+        "count": 2,
+        "name": "银火龙的重壳 "
+      },
+      {
+        "item_id": 2098,
+        "count": 1,
+        "name": "雷狼龙的刚爪"
+      }
+    ],
+    "unlock_monster_id": "em002_02",
+    "unlock_monster": "银火龙"
+  },
+  "10046": {
+    "id": 10046,
+    "name": "友爱珠Ⅲ【3】",
+    "sort_id": 902,
+    "rare": 8,
+    "icon_color": 1,
+    "base_price": 3000,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 88,
+        "level": 3,
+        "name": "广域化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 6,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2106,
+        "count": 2,
+        "name": "青熊兽的重臂甲"
+      },
+      {
+        "item_id": 2350,
+        "count": 1,
+        "name": "丸鸟的特等羽毛"
+      }
+    ],
+    "unlock_progress": "大师任务 1星"
+  },
+  "10047": {
+    "id": 10047,
+    "name": "友爱珠Ⅳ【4】",
+    "sort_id": 503,
+    "rare": 9,
+    "icon_color": 1,
+    "base_price": 4000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 88,
+        "level": 4,
+        "name": "广域化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 2,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2206,
+        "count": 2,
+        "name": "冰人鱼龙的冻爪"
+      },
+      {
+        "item_id": 2070,
+        "count": 4,
+        "name": "迅龙的厚鳞"
+      },
+      {
+        "item_id": 2361,
+        "count": 6,
+        "name": "重龙骨"
+      }
+    ],
+    "unlock_progress": "大师任务 5星"
+  },
+  "10048": {
+    "id": 10048,
+    "name": "回避珠Ⅱ【4】",
+    "sort_id": 805,
+    "rare": 8,
+    "icon_color": 12,
+    "base_price": 3000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 64,
+        "level": 2,
+        "name": "回避性能"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 8,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2281,
+        "count": 3,
+        "name": "飞雷龙的厚毛皮"
+      },
+      {
+        "item_id": 2380,
+        "count": 1,
+        "name": "幻鸟龙玉"
+      }
+    ],
+    "unlock_progress": "大师任务 2星"
+  },
+  "10049": {
+    "id": 10049,
+    "name": "速纳珠Ⅱ【4】",
+    "sort_id": 316,
+    "rare": 10,
+    "icon_color": 13,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 39,
+        "level": 2,
+        "name": "纳刀术"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 4,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2874,
+        "count": 2,
+        "name": "金火龙的厚翼膜"
+      },
+      {
+        "item_id": 2283,
+        "count": 1,
+        "name": "飞雷龙的刚爪"
+      },
+      {
+        "item_id": 2181,
+        "count": 1,
+        "name": "天狗兽的刚爪"
+      }
+    ],
+    "unlock_monster_id": "em001_02",
+    "unlock_monster": "金火龙"
+  },
+  "10050": {
+    "id": 10050,
+    "name": "点射珠Ⅲ【4】",
+    "sort_id": 322,
+    "rare": 10,
+    "icon_color": 2,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 53,
+        "level": 3,
+        "name": "抑制偏移"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 3,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2292,
+        "count": 2,
+        "name": "红莲飘荡之银壳"
+      },
+      {
+        "item_id": 2014,
+        "count": 1,
+        "name": "火龙的刚翼"
+      }
+    ],
+    "unlock_monster_id": "em118_05",
+    "unlock_monster": "红莲爆鳞龙"
+  },
+  "10051": {
+    "id": 10051,
+    "name": "拔打珠Ⅱ【4】",
+    "sort_id": 804,
+    "rare": 8,
+    "icon_color": 4,
+    "base_price": 3000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 38,
+        "level": 2,
+        "name": "拔刀术【力】"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 8,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2200,
+        "count": 2,
+        "name": "人鱼龙的重壳"
+      },
+      {
+        "item_id": 2381,
+        "count": 1,
+        "name": "大龙玉"
+      }
+    ],
+    "unlock_progress": "大师任务 2星"
+  },
+  "10052": {
+    "id": 10052,
+    "name": "耐冲珠Ⅲ【4】",
+    "sort_id": 415,
+    "rare": 9,
+    "icon_color": 2,
+    "base_price": 4000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 92,
+        "level": 3,
+        "name": "减轻胆怯"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2805,
+        "count": 5,
+        "name": "金刚原珠"
+      },
+      {
+        "item_id": 2862,
+        "count": 2,
+        "name": "刚缠兽的厚鳞"
+      },
+      {
+        "item_id": 2307,
+        "count": 1,
+        "name": "冰狼龙的刚朱爪"
+      },
+      {
+        "item_id": 2586,
+        "count": 7,
+        "name": "怪异化的龙骨"
+      }
+    ],
+    "unlock_item_id": 2586,
+    "unlock_item": "怪异化的龙骨"
+  },
+  "10053": {
+    "id": 10053,
+    "name": "泡沫珠Ⅱ【4】",
+    "sort_id": 412,
+    "rare": 9,
+    "icon_color": 1,
+    "base_price": 4000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 63,
+        "level": 2,
+        "name": "泡沫之舞"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 4,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2147,
+        "count": 2,
+        "name": "浓厚起泡滑液"
+      },
+      {
+        "item_id": 2037,
+        "count": 1,
+        "name": "极品黑珍珠"
+      },
+      {
+        "item_id": 2588,
+        "count": 7,
+        "name": "怪异化的鳞"
+      }
+    ],
+    "unlock_item_id": 2588,
+    "unlock_item": "怪异化的鳞"
+  },
+  "10054": {
+    "id": 10054,
+    "name": "击晕珠Ⅱ【4】",
+    "sort_id": 411,
+    "rare": 9,
+    "icon_color": 4,
+    "base_price": 4000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 40,
+        "level": 2,
+        "name": "击晕术"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 4,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2264,
+        "count": 2,
+        "name": "蛮颚龙的重鼻骨"
+      },
+      {
+        "item_id": 2023,
+        "count": 1,
+        "name": "岩龙的天壳"
+      },
+      {
+        "item_id": 2589,
+        "count": 7,
+        "name": "怪异化的甲壳"
+      }
+    ],
+    "unlock_item_id": 2589,
+    "unlock_item": "怪异化的甲壳"
+  },
+  "10055": {
+    "id": 10055,
+    "name": "跳跃珠Ⅱ【4】",
+    "sort_id": 803,
+    "rare": 8,
+    "icon_color": 12,
+    "base_price": 3000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 65,
+        "level": 2,
+        "name": "回避距离提升"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 8,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2182,
+        "count": 2,
+        "name": "天狗兽的豪臂羽"
+      },
+      {
+        "item_id": 2666,
+        "count": 1,
+        "name": "大兽玉"
+      }
+    ],
+    "unlock_progress": "大师任务 2星"
+  },
+  "10056": {
+    "id": 10056,
+    "name": "防风珠Ⅲ【4】",
+    "sort_id": 901,
+    "rare": 8,
+    "icon_color": 1,
+    "base_price": 3000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 61,
+        "level": 3,
+        "name": "风压耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 6,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2195,
+        "count": 2,
+        "name": "河童蛙的苔重甲"
+      },
+      {
+        "item_id": 2332,
+        "count": 2,
+        "name": "巨蜂的斩羽"
+      }
+    ],
+    "unlock_progress": "大师任务 1星"
+  },
+  "10057": {
+    "id": 10057,
+    "name": "逆袭珠Ⅱ【4】",
+    "sort_id": 312,
+    "rare": 10,
+    "icon_color": 7,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 105,
+        "level": 2,
+        "name": "逆袭"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 6,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2812,
+        "count": 2,
+        "name": "金火龙的秘棘"
+      },
+      {
+        "item_id": 2010,
+        "count": 1,
+        "name": "雌火龙的天鳞"
+      }
+    ],
+    "unlock_monster_id": "em002_02",
+    "unlock_monster": "银火龙"
+  },
+  "10058": {
+    "id": 10058,
+    "name": "攻击珠Ⅱ【4】",
+    "sort_id": 100,
+    "rare": 10,
+    "icon_color": 7,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 0,
+        "level": 2,
+        "name": "攻击"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 6,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2323,
+        "count": 1,
+        "name": "地狱的龙神玉"
+      },
+      {
+        "item_id": 2966,
+        "count": 6,
+        "name": "破怪的浓龙血"
+      }
+    ],
+    "unlock_item_id": 2966,
+    "unlock_item": "破怪的浓龙血"
+  },
+  "10059": {
+    "id": 10059,
+    "name": "达人珠Ⅱ【4】",
+    "sort_id": 101,
+    "rare": 10,
+    "icon_color": 3,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 5,
+        "level": 2,
+        "name": "看破"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 6,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2974,
+        "count": 1,
+        "name": "冰呪龙的零玉"
+      },
+      {
+        "item_id": 2966,
+        "count": 6,
+        "name": "破怪的浓龙血"
+      }
+    ],
+    "unlock_item_id": 2966,
+    "unlock_item": "破怪的浓龙血"
+  },
+  "10060": {
+    "id": 10060,
+    "name": "早气珠Ⅱ【4】",
+    "sort_id": 410,
+    "rare": 9,
+    "icon_color": 5,
+    "base_price": 4000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 33,
+        "level": 2,
+        "name": "耐力急速回复"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 4,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2222,
+        "count": 3,
+        "name": "泥翁龙的仙人须"
+      },
+      {
+        "item_id": 2091,
+        "count": 2,
+        "name": "帅气的头冠"
+      },
+      {
+        "item_id": 2589,
+        "count": 7,
+        "name": "怪异化的甲壳"
+      }
+    ],
+    "unlock_item_id": 2589,
+    "unlock_item": "怪异化的甲壳"
+  },
+  "10061": {
+    "id": 10061,
+    "name": "铁壁珠Ⅱ【3】",
+    "sort_id": 802,
+    "rare": 8,
+    "icon_color": 2,
+    "base_price": 3000,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 34,
+        "level": 2,
+        "name": "防御性能"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 8,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2279,
+        "count": 2,
+        "name": "泥鱼龙的特等鳍"
+      },
+      {
+        "item_id": 2872,
+        "count": 1,
+        "name": "岩龙的韧尾"
+      }
+    ],
+    "unlock_progress": "大师任务 2星"
+  },
+  "10062": {
+    "id": 10062,
+    "name": "强壁珠Ⅱ【4】",
+    "sort_id": 801,
+    "rare": 8,
+    "icon_color": 1,
+    "base_price": 3000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 35,
+        "level": 2,
+        "name": "防御强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 8,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2021,
+        "count": 3,
+        "name": "岩龙的重胸壳"
+      }
+    ],
+    "unlock_progress": "大师任务 2星"
+  },
+  "10063": {
+    "id": 10063,
+    "name": "射法珠Ⅱ【4】",
+    "sort_id": 406,
+    "rare": 9,
+    "icon_color": 1,
+    "base_price": 4000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 26,
+        "level": 2,
+        "name": "弹道强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 6,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2098,
+        "count": 3,
+        "name": "雷狼龙的刚爪"
+      },
+      {
+        "item_id": 2319,
+        "count": 2,
+        "name": "地狱的龙鳞"
+      },
+      {
+        "item_id": 2592,
+        "count": 7,
+        "name": "怪异化的爪"
+      }
+    ],
+    "unlock_item_id": 2592,
+    "unlock_item": "怪异化的爪"
+  },
+  "10064": {
+    "id": 10064,
+    "name": "浑身珠Ⅱ【4】",
+    "sort_id": 262,
+    "rare": 10,
+    "icon_color": 3,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 9,
+        "level": 2,
+        "name": "精神抖擞"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 6,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2152,
+        "count": 3,
+        "name": "焰狐龙的特等锦鳍"
+      },
+      {
+        "item_id": 2319,
+        "count": 3,
+        "name": "地狱的龙鳞"
+      }
+    ],
+    "unlock_monster_id": "em082_02",
+    "unlock_monster": "焰狐龙"
+  },
+  "10065": {
+    "id": 10065,
+    "name": "属会珠Ⅱ【4】",
+    "sort_id": 500,
+    "rare": 9,
+    "icon_color": 10,
+    "base_price": 4000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 10,
+        "level": 2,
+        "name": "会心击【属性】"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 4,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2379,
+        "count": 2,
+        "name": "古龙的净血"
+      },
+      {
+        "item_id": 2381,
+        "count": 1,
+        "name": "大龙玉"
+      }
+    ],
+    "unlock_item_id": 2806,
+    "unlock_item": "明王原珠"
+  },
+  "10066": {
+    "id": 10066,
+    "name": "缩短珠Ⅱ【4】",
+    "sort_id": 900,
+    "rare": 8,
+    "icon_color": 1,
+    "base_price": 3000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 29,
+        "level": 2,
+        "name": "集中"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 6,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2113,
+        "count": 2,
+        "name": "赤甲兽的大蛇腹甲"
+      },
+      {
+        "item_id": 2702,
+        "count": 1,
+        "name": "古老巨龙骨"
+      }
+    ],
+    "unlock_progress": "大师任务 1星"
+  },
+  "10067": {
+    "id": 10067,
+    "name": "强走珠Ⅱ【4】",
+    "sort_id": 409,
+    "rare": 9,
+    "icon_color": 5,
+    "base_price": 4000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 31,
+        "level": 2,
+        "name": "跑者"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 4,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2137,
+        "count": 3,
+        "name": "超高压电甲"
+      },
+      {
+        "item_id": 2230,
+        "count": 2,
+        "name": "熔翁龙的刚韧须"
+      },
+      {
+        "item_id": 2588,
+        "count": 7,
+        "name": "怪异化的鳞"
+      }
+    ],
+    "unlock_item_id": 2588,
+    "unlock_item": "怪异化的鳞"
+  },
+  "10068": {
+    "id": 10068,
+    "name": "守势珠Ⅱ【4】",
+    "sort_id": 202,
+    "rare": 10,
+    "icon_color": 9,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 36,
+        "level": 2,
+        "name": "攻击守势"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 5,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2292,
+        "count": 5,
+        "name": "红莲飘荡之银壳"
+      },
+      {
+        "item_id": 2909,
+        "count": 3,
+        "name": "怪异化的凶厚鳞"
+      },
+      {
+        "item_id": 2910,
+        "count": 3,
+        "name": "怪异化的凶重骨"
+      }
+    ],
+    "unlock_item_id": 2909,
+    "unlock_item": "怪异化的凶厚鳞"
+  },
+  "10069": {
+    "id": 10069,
+    "name": "装填珠Ⅱ【4】",
+    "sort_id": 106,
+    "rare": 10,
+    "icon_color": 8,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 50,
+        "level": 2,
+        "name": "装填扩充"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 6,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2986,
+        "count": 1,
+        "name": "天空的龙神玉"
+      },
+      {
+        "item_id": 2972,
+        "count": 3,
+        "name": "冰呪龙的刚翼"
+      }
+    ],
+    "unlock_monster_id": "em058_00",
+    "unlock_monster": "岚龙"
+  },
+  "10070": {
+    "id": 10070,
+    "name": "拔刀珠Ⅱ【4】",
+    "sort_id": 405,
+    "rare": 9,
+    "icon_color": 3,
+    "base_price": 4000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 37,
+        "level": 2,
+        "name": "拔刀术【技】"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 6,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2027,
+        "count": 3,
+        "name": "坚固的弯曲角"
+      },
+      {
+        "item_id": 2082,
+        "count": 2,
+        "name": "琥珀色的重牙"
+      },
+      {
+        "item_id": 2592,
+        "count": 7,
+        "name": "怪异化的爪"
+      }
+    ],
+    "unlock_item_id": 2592,
+    "unlock_item": "怪异化的爪"
+  },
+  "10071": {
+    "id": 10071,
+    "name": "茸好珠Ⅱ【4】",
+    "sort_id": 404,
+    "rare": 9,
+    "icon_color": 9,
+    "base_price": 4000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 86,
+        "level": 2,
+        "name": "最爱蘑菇"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 6,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2066,
+        "count": 4,
+        "name": "轰龙的重牙"
+      },
+      {
+        "item_id": 2667,
+        "count": 2,
+        "name": "七色彩虹蘑菇"
+      },
+      {
+        "item_id": 2592,
+        "count": 7,
+        "name": "怪异化的爪"
+      }
+    ],
+    "unlock_item_id": 2592,
+    "unlock_item": "怪异化的爪"
+  },
+  "10072": {
+    "id": 10072,
+    "name": "耐绝珠Ⅲ【4】",
+    "sort_id": 800,
+    "rare": 8,
+    "icon_color": 4,
+    "base_price": 3000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 75,
+        "level": 3,
+        "name": "昏厥耐性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 8,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2269,
+        "count": 3,
+        "name": "毒妖鸟的刚翼"
+      },
+      {
+        "item_id": 2352,
+        "count": 2,
+        "name": "冠突龙的重壳"
+      }
+    ],
+    "unlock_progress": "大师任务 2星"
+  },
+  "10073": {
+    "id": 10073,
+    "name": "底力珠Ⅱ【4】",
+    "sort_id": 151,
+    "rare": 10,
+    "icon_color": 7,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 90,
+        "level": 2,
+        "name": "火场怪力"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 5,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2042,
+        "count": 3,
+        "name": "黄金色的煌毛"
+      },
+      {
+        "item_id": 2961,
+        "count": 6,
+        "name": "破怪的龙骨"
+      }
+    ],
+    "unlock_item_id": 2961,
+    "unlock_item": "破怪的龙骨"
+  },
+  "10074": {
+    "id": 10074,
+    "name": "斩铁珠Ⅱ【4】",
+    "sort_id": 309,
+    "rare": 10,
+    "icon_color": 4,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 22,
+        "level": 2,
+        "name": "利刃"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 6,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2821,
+        "count": 2,
+        "name": "月迅龙的透刃翼"
+      },
+      {
+        "item_id": 2167,
+        "count": 2,
+        "name": "怨虎龙的狱刀壳"
+      }
+    ],
+    "unlock_monster_id": "em037_02",
+    "unlock_monster": "月迅龙"
+  },
+  "10075": {
+    "id": 10075,
+    "name": "省弹珠Ⅱ【4】",
+    "sort_id": 75,
+    "rare": 10,
+    "icon_color": 4,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 23,
+        "level": 2,
+        "name": "弹丸节约"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 6,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2995,
+        "count": 1,
+        "name": "刻冥的龙血玉"
+      },
+      {
+        "item_id": 2980,
+        "count": 3,
+        "name": "岚龙的厚飞膜"
+      }
+    ],
+    "unlock_monster_id": "em132_05",
+    "unlock_monster": "原初形态爵银龙"
+  },
+  "10076": {
+    "id": 10076,
+    "name": "心眼珠Ⅱ【4】",
+    "sort_id": 408,
+    "rare": 9,
+    "icon_color": 1,
+    "base_price": 4000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 25,
+        "level": 2,
+        "name": "心眼"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 4,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2242,
+        "count": 2,
+        "name": "雪鬼兽的特等皮"
+      },
+      {
+        "item_id": 2143,
+        "count": 3,
+        "name": "泡狐龙的紫刚毛"
+      },
+      {
+        "item_id": 2588,
+        "count": 7,
+        "name": "怪异化的鳞"
+      }
+    ],
+    "unlock_item_id": 2588,
+    "unlock_item": "怪异化的鳞"
+  },
+  "10077": {
+    "id": 10077,
+    "name": "速变珠Ⅱ【4】",
+    "sort_id": 321,
+    "rare": 10,
+    "icon_color": 11,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 106,
+        "level": 2,
+        "name": "高速变形"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 5,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2293,
+        "count": 2,
+        "name": "烧灼天空之银翼"
+      },
+      {
+        "item_id": 2307,
+        "count": 2,
+        "name": "冰狼龙的刚朱爪"
+      }
+    ],
+    "unlock_monster_id": "em118_05",
+    "unlock_monster": "红莲爆鳞龙"
+  },
+  "10078": {
+    "id": 10078,
+    "name": "炮术珠Ⅱ【4】",
+    "sort_id": 318,
+    "rare": 10,
+    "icon_color": 2,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 44,
+        "level": 2,
+        "name": "炮术"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 6,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2294,
+        "count": 2,
+        "name": "浓缩的爆腺液"
+      },
+      {
+        "item_id": 2164,
+        "count": 2,
+        "name": "怨虎龙的厚鳞"
+      },
+      {
+        "item_id": 2478,
+        "count": 3,
+        "name": "深红莲石"
+      }
+    ],
+    "unlock_monster_id": "em118_05",
+    "unlock_monster": "红莲爆鳞龙"
+  },
+  "10079": {
+    "id": 10079,
+    "name": "防音珠Ⅱ【4】",
+    "sort_id": 403,
+    "rare": 9,
+    "icon_color": 1,
+    "base_price": 4000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 60,
+        "level": 2,
+        "name": "耳塞"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 6,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2165,
+        "count": 3,
+        "name": "怨虎龙的重壳"
+      },
+      {
+        "item_id": 2108,
+        "count": 2,
+        "name": "白兔兽的灵耳"
+      },
+      {
+        "item_id": 2590,
+        "count": 7,
+        "name": "怪异化的牙"
+      }
+    ],
+    "unlock_item_id": 2590,
+    "unlock_item": "怪异化的牙"
+  },
+  "10080": {
+    "id": 10080,
+    "name": "昂扬珠Ⅱ【4】",
+    "sort_id": 402,
+    "rare": 9,
+    "icon_color": 13,
+    "base_price": 4000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 30,
+        "level": 2,
+        "name": "强化持续"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 6,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2185,
+        "count": 3,
+        "name": "绯天狗兽的豪刚毛"
+      },
+      {
+        "item_id": 2232,
+        "count": 2,
+        "name": "炽热的熔岩泥"
+      },
+      {
+        "item_id": 2590,
+        "count": 7,
+        "name": "怪异化的牙"
+      }
+    ],
+    "unlock_item_id": 2590,
+    "unlock_item": "怪异化的牙"
+  },
+  "10081": {
+    "id": 10081,
+    "name": "特射珠Ⅱ【4】",
+    "sort_id": 319,
+    "rare": 10,
+    "icon_color": 2,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 46,
+        "level": 2,
+        "name": "特殊射击强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 6,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2292,
+        "count": 3,
+        "name": "红莲飘荡之银壳"
+      },
+      {
+        "item_id": 2220,
+        "count": 1,
+        "name": "泥翁龙的刚爪"
+      }
+    ],
+    "unlock_monster_id": "em118_05",
+    "unlock_monster": "红莲爆鳞龙"
+  },
+  "10082": {
+    "id": 10082,
+    "name": "增弹珠Ⅱ【4】",
+    "sort_id": 320,
+    "rare": 10,
+    "icon_color": 2,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 45,
+        "level": 2,
+        "name": "炮弹装填"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 6,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2293,
+        "count": 2,
+        "name": "烧灼天空之银翼"
+      },
+      {
+        "item_id": 2233,
+        "count": 1,
+        "name": "熔翁龙的天鳞"
+      }
+    ],
+    "unlock_monster_id": "em118_05",
+    "unlock_monster": "红莲爆鳞龙"
+  },
+  "10083": {
+    "id": 10083,
+    "name": "耐震珠Ⅱ【4】",
+    "sort_id": 414,
+    "rare": 9,
+    "icon_color": 2,
+    "base_price": 4000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 62,
+        "level": 2,
+        "name": "耐震"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2805,
+        "count": 5,
+        "name": "金刚原珠"
+      },
+      {
+        "item_id": 2365,
+        "count": 3,
+        "name": "坚固的重骨"
+      },
+      {
+        "item_id": 2195,
+        "count": 2,
+        "name": "河童蛙的苔重甲"
+      },
+      {
+        "item_id": 2586,
+        "count": 7,
+        "name": "怪异化的龙骨"
+      }
+    ],
+    "unlock_item_id": 2586,
+    "unlock_item": "怪异化的龙骨"
+  },
+  "10084": {
+    "id": 10084,
+    "name": "爆破珠Ⅱ【4】",
+    "sort_id": 264,
+    "rare": 10,
+    "icon_color": 6,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 20,
+        "level": 2,
+        "name": "爆破属性强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 4,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2823,
+        "count": 3,
+        "name": "棘茶龙的厚鳞"
+      },
+      {
+        "item_id": 2286,
+        "count": 1,
+        "name": "爆鳞龙的爆腺束"
+      }
+    ],
+    "unlock_monster_id": "em136_01",
+    "unlock_monster": "棘茶龙"
+  },
+  "10085": {
+    "id": 10085,
+    "name": "散弹珠Ⅱ【4】",
+    "sort_id": 256,
+    "rare": 10,
+    "icon_color": 2,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 49,
+        "level": 2,
+        "name": "散弹・扩散箭强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 5,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2812,
+        "count": 2,
+        "name": "金火龙的秘棘"
+      },
+      {
+        "item_id": 2879,
+        "count": 6,
+        "name": "怪异化的凶壳"
+      }
+    ],
+    "unlock_item_id": 2879,
+    "unlock_item": "怪异化的凶壳"
+  },
+  "10086": {
+    "id": 10086,
+    "name": "挑战珠Ⅱ【4】",
+    "sort_id": 107,
+    "rare": 10,
+    "icon_color": 7,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 1,
+        "level": 2,
+        "name": "挑战者"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 5,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2982,
+        "count": 3,
+        "name": "岚龙的刚爪"
+      },
+      {
+        "item_id": 2101,
+        "count": 1,
+        "name": "雷狼龙的天玉"
+      }
+    ],
+    "unlock_monster_id": "em058_00",
+    "unlock_monster": "岚龙"
+  },
+  "10087": {
+    "id": 10087,
+    "name": "逆上珠Ⅱ【4】",
+    "sort_id": 160,
+    "rare": 10,
+    "icon_color": 6,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 3,
+        "level": 2,
+        "name": "怨恨"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 5,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2971,
+        "count": 2,
+        "name": "冰呪龙的冠角"
+      },
+      {
+        "item_id": 2322,
+        "count": 2,
+        "name": "冥渊龙的穿渊爪"
+      },
+      {
+        "item_id": 2216,
+        "count": 1,
+        "name": "炽妃蜘蛛的重钩棘"
+      }
+    ],
+    "unlock_monster_id": "em124_00",
+    "unlock_monster": "冰呪龙"
+  },
+  "10088": {
+    "id": 10088,
+    "name": "绝路珠Ⅱ【4】",
+    "sort_id": 315,
+    "rare": 10,
+    "icon_color": 6,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 4,
+        "level": 2,
+        "name": "死里逃生"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 5,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2810,
+        "count": 3,
+        "name": "金火龙的厚鳞"
+      },
+      {
+        "item_id": 2064,
+        "count": 2,
+        "name": "轰龙的重壳"
+      }
+    ],
+    "unlock_monster_id": "em001_02",
+    "unlock_monster": "金火龙"
+  },
+  "10089": {
+    "id": 10089,
+    "name": "全开珠Ⅱ【4】",
+    "sort_id": 210,
+    "rare": 10,
+    "icon_color": 3,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 8,
+        "level": 2,
+        "name": "力量解放"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 5,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2943,
+        "count": 1,
+        "name": "炎王龙的破怪玉"
+      },
+      {
+        "item_id": 2042,
+        "count": 3,
+        "name": "黄金色的煌毛"
+      },
+      {
+        "item_id": 2382,
+        "count": 1,
+        "name": "古龙的大宝玉"
+      }
+    ],
+    "unlock_monster_id": "em027_08",
+    "unlock_monster": "怪异克服炎王龙"
+  },
+  "10090": {
+    "id": 10090,
+    "name": "麻痹珠Ⅱ【4】",
+    "sort_id": 266,
+    "rare": 10,
+    "icon_color": 5,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 18,
+        "level": 2,
+        "name": "麻痹属性强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 4,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2824,
+        "count": 2,
+        "name": "棘茶龙的重壳"
+      },
+      {
+        "item_id": 2137,
+        "count": 2,
+        "name": "超高压电甲"
+      }
+    ],
+    "unlock_monster_id": "em136_01",
+    "unlock_monster": "棘茶龙"
+  },
+  "10091": {
+    "id": 10091,
+    "name": "睡眠珠Ⅱ【4】",
+    "sort_id": 265,
+    "rare": 10,
+    "icon_color": 12,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 19,
+        "level": 2,
+        "name": "睡眠属性强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 4,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2825,
+        "count": 2,
+        "name": "棘茶龙的秘棘"
+      },
+      {
+        "item_id": 2203,
+        "count": 2,
+        "name": "人鱼龙的幻梦粉"
+      }
+    ],
+    "unlock_monster_id": "em136_01",
+    "unlock_monster": "棘茶龙"
+  },
+  "10092": {
+    "id": 10092,
+    "name": "刚刃珠Ⅱ【4】",
+    "sort_id": 311,
+    "rare": 10,
+    "icon_color": 4,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 24,
+        "level": 2,
+        "name": "刚刃打磨"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 4,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2816,
+        "count": 2,
+        "name": "银火龙的韧尾"
+      },
+      {
+        "item_id": 2132,
+        "count": 2,
+        "name": "千刃龙的断刀角"
+      },
+      {
+        "item_id": 2875,
+        "count": 1,
+        "name": "火龙的煌液"
+      }
+    ],
+    "unlock_monster_id": "em002_02",
+    "unlock_monster": "银火龙"
+  },
+  "10093": {
+    "id": 10093,
+    "name": "强弹珠Ⅱ【4】",
+    "sort_id": 258,
+    "rare": 10,
+    "icon_color": 1,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 47,
+        "level": 2,
+        "name": "通常弹・连射箭强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 5,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2292,
+        "count": 2,
+        "name": "红莲飘荡之银壳"
+      },
+      {
+        "item_id": 2879,
+        "count": 6,
+        "name": "怪异化的凶壳"
+      }
+    ],
+    "unlock_item_id": 2879,
+    "unlock_item": "怪异化的凶壳"
+  },
+  "10094": {
+    "id": 10094,
+    "name": "贯穿珠Ⅱ【4】",
+    "sort_id": 257,
+    "rare": 10,
+    "icon_color": 11,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 48,
+        "level": 2,
+        "name": "贯穿弹・贯穿箭强化"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 5,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2819,
+        "count": 2,
+        "name": "月迅龙的重牙"
+      },
+      {
+        "item_id": 2880,
+        "count": 6,
+        "name": "怪异化的凶爪"
+      }
+    ],
+    "unlock_item_id": 2880,
+    "unlock_item": "怪异化的凶爪"
+  },
+  "10096": {
+    "id": 10096,
+    "name": "鬼火珠Ⅱ【4】",
+    "sort_id": 401,
+    "rare": 9,
+    "icon_color": 9,
+    "base_price": 4000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 107,
+        "level": 2,
+        "name": "鬼火缠"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 6,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2170,
+        "count": 3,
+        "name": "怨虎龙的魂魄结晶"
+      },
+      {
+        "item_id": 2212,
+        "count": 2,
+        "name": "妃蜘蛛的绚灯腹"
+      },
+      {
+        "item_id": 2590,
+        "count": 7,
+        "name": "怪异化的牙"
+      }
+    ],
+    "unlock_item_id": 2590,
+    "unlock_item": "怪异化的牙"
+  },
+  "10097": {
+    "id": 10097,
+    "name": "匠珠Ⅱ【4】",
+    "sort_id": 255,
+    "rare": 10,
+    "icon_color": 10,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 21,
+        "level": 2,
+        "name": "匠"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 5,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2051,
+        "count": 3,
+        "name": "钢龙的刚爪"
+      },
+      {
+        "item_id": 2880,
+        "count": 6,
+        "name": "怪异化的凶爪"
+      }
+    ],
+    "unlock_item_id": 2880,
+    "unlock_item": "怪异化的凶爪"
+  },
+  "10098": {
+    "id": 10098,
+    "name": "运气珠Ⅱ【4】",
+    "sort_id": 400,
+    "rare": 9,
+    "icon_color": 4,
+    "base_price": 4000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 83,
+        "level": 2,
+        "name": "幸运"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 6,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2052,
+        "count": 5,
+        "name": "霞龙的特等皮"
+      },
+      {
+        "item_id": 2225,
+        "count": 1,
+        "name": "泥翁龙的天鳞"
+      },
+      {
+        "item_id": 2590,
+        "count": 7,
+        "name": "怪异化的牙"
+      }
+    ],
+    "unlock_item_id": 2590,
+    "unlock_item": "怪异化的牙"
+  },
+  "10099": {
+    "id": 10099,
+    "name": "达艺珠Ⅱ【4】",
+    "sort_id": 303,
+    "rare": 10,
+    "icon_color": 1,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 11,
+        "level": 2,
+        "name": "达人艺"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 5,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2060,
+        "count": 1,
+        "name": "狱炎的厚龙鳞"
+      },
+      {
+        "item_id": 2058,
+        "count": 1,
+        "name": "炎王龙的韧尾"
+      },
+      {
+        "item_id": 2877,
+        "count": 7,
+        "name": "怪异化的凶骨"
+      }
+    ],
+    "unlock_item_id": 2877,
+    "unlock_item": "怪异化的凶骨"
+  },
+  "10100": {
+    "id": 10100,
+    "name": "无伤珠Ⅱ【4】",
+    "sort_id": 208,
+    "rare": 10,
+    "icon_color": 7,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 2,
+        "level": 2,
+        "name": "无伤"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 5,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2942,
+        "count": 1,
+        "name": "钢龙的破怪玉"
+      },
+      {
+        "item_id": 2066,
+        "count": 3,
+        "name": "轰龙的重牙"
+      },
+      {
+        "item_id": 2382,
+        "count": 1,
+        "name": "古龙的大宝玉"
+      }
+    ],
+    "unlock_monster_id": "em024_08",
+    "unlock_monster": "怪异克服钢龙"
+  },
+  "10101": {
+    "id": 10101,
+    "name": "精密珠【3】",
+    "sort_id": 308,
+    "rare": 10,
+    "icon_color": 2,
+    "base_price": 6000,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 10014,
+        "level": 1,
+        "name": "零件改造"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 5,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2818,
+        "count": 4,
+        "name": "月迅龙的豪斑毛"
+      },
+      {
+        "item_id": 2209,
+        "count": 1,
+        "name": "妃蜘蛛的重壳"
+      },
+      {
+        "item_id": 2341,
+        "count": 1,
+        "name": "盾蟹的极小壳"
+      }
+    ],
+    "unlock_monster_id": "em037_02",
+    "unlock_monster": "月迅龙"
+  },
+  "10102": {
+    "id": 10102,
+    "name": "磨锐珠【3】",
+    "sort_id": 301,
+    "rare": 10,
+    "icon_color": 4,
+    "base_price": 6000,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 10015,
+        "level": 1,
+        "name": "打磨术【锐】"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 4,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2032,
+        "count": 3,
+        "name": "将军镰蟹的刚爪"
+      },
+      {
+        "item_id": 2876,
+        "count": 7,
+        "name": "怪异化的凶鳞"
+      }
+    ],
+    "unlock_item_id": 2876,
+    "unlock_item": "怪异化的凶鳞"
+  },
+  "10103": {
+    "id": 10103,
+    "name": "提供珠【1】",
+    "sort_id": 302,
+    "rare": 8,
+    "icon_color": 1,
+    "base_price": 3000,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 10011,
+        "level": 1,
+        "name": "提供"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 2,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2311,
+        "count": 2,
+        "name": "刚缠兽的重壳"
+      },
+      {
+        "item_id": 2876,
+        "count": 7,
+        "name": "怪异化的凶鳞"
+      }
+    ],
+    "unlock_item_id": 2876,
+    "unlock_item": "怪异化的凶鳞"
+  },
+  "10104": {
+    "id": 10104,
+    "name": "蓄幅珠【2】",
+    "sort_id": 317,
+    "rare": 10,
+    "icon_color": 10,
+    "base_price": 6000,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 10012,
+        "level": 1,
+        "name": "蓄力大师"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 5,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2294,
+        "count": 2,
+        "name": "浓缩的爆腺液"
+      },
+      {
+        "item_id": 2315,
+        "count": 1,
+        "name": "刚缠兽的重锄尾"
+      }
+    ],
+    "unlock_monster_id": "em118_05",
+    "unlock_monster": "红莲爆鳞龙"
+  },
+  "10105": {
+    "id": 10105,
+    "name": "转福珠【2】",
+    "sort_id": 300,
+    "rare": 10,
+    "icon_color": 9,
+    "base_price": 6000,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 10004,
+        "level": 1,
+        "name": "因祸得福"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 5,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2115,
+        "count": 2,
+        "name": "黑蚀龙的重壳"
+      },
+      {
+        "item_id": 2120,
+        "count": 2,
+        "name": "天廻龙的厚鳞"
+      },
+      {
+        "item_id": 2878,
+        "count": 7,
+        "name": "怪异化的凶角"
+      }
+    ],
+    "unlock_item_id": 2878,
+    "unlock_item": "怪异化的凶角"
+  },
+  "10106": {
+    "id": 10106,
+    "name": "刃鳞珠【2】",
+    "sort_id": 426,
+    "rare": 9,
+    "icon_color": 4,
+    "base_price": 4000,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 10016,
+        "level": 1,
+        "name": "刃鳞打磨"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2805,
+        "count": 3,
+        "name": "金刚原珠"
+      },
+      {
+        "item_id": 2128,
+        "count": 3,
+        "name": "千刃龙的破刃"
+      },
+      {
+        "item_id": 2317,
+        "count": 1,
+        "name": "冥渊龙的昏钩尾"
+      }
+    ],
+    "unlock_progress": "大师任务 6星"
+  },
+  "10107": {
+    "id": 10107,
+    "name": "壁翔珠【1】",
+    "sort_id": 425,
+    "rare": 9,
+    "icon_color": 8,
+    "base_price": 4000,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 10017,
+        "level": 1,
+        "name": "走壁移动【翔】"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2805,
+        "count": 3,
+        "name": "金刚原珠"
+      },
+      {
+        "item_id": 2129,
+        "count": 2,
+        "name": "千刃龙的闪裂爪"
+      },
+      {
+        "item_id": 2321,
+        "count": 1,
+        "name": "冥渊龙的堕翼爪"
+      }
+    ],
+    "unlock_progress": "大师任务 6星"
+  },
+  "10108": {
+    "id": 10108,
+    "name": "连击珠【2】",
+    "sort_id": 261,
+    "rare": 10,
+    "icon_color": 7,
+    "base_price": 6000,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 10019,
+        "level": 1,
+        "name": "连击"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 6,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2154,
+        "count": 2,
+        "name": "纯白滑液"
+      },
+      {
+        "item_id": 2140,
+        "count": 2,
+        "name": "电龙的刚翼爪"
+      }
+    ],
+    "unlock_monster_id": "em082_02",
+    "unlock_monster": "焰狐龙"
+  },
+  "10109": {
+    "id": 10109,
+    "name": "合气珠【3】",
+    "sort_id": 502,
+    "rare": 9,
+    "icon_color": 8,
+    "base_price": 4000,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 10010,
+        "level": 1,
+        "name": "合气"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 2,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2305,
+        "count": 2,
+        "name": "冰冻的狼重牙"
+      },
+      {
+        "item_id": 2297,
+        "count": 2,
+        "name": "爵银龙的刚翼"
+      }
+    ],
+    "unlock_progress": "大师任务 5星"
+  },
+  "10110": {
+    "id": 10110,
+    "name": "攻势珠【2】",
+    "sort_id": 263,
+    "rare": 10,
+    "icon_color": 7,
+    "base_price": 6000,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 10013,
+        "level": 1,
+        "name": "攻势"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 5,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2826,
+        "count": 2,
+        "name": "棘茶龙的浓强酸"
+      },
+      {
+        "item_id": 2059,
+        "count": 1,
+        "name": "炎王龙的刚角"
+      }
+    ],
+    "unlock_monster_id": "em136_01",
+    "unlock_monster": "棘茶龙"
+  },
+  "10112": {
+    "id": 10112,
+    "name": "气息珠【3】",
+    "sort_id": 600,
+    "rare": 8,
+    "icon_color": 8,
+    "base_price": 3000,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 10021,
+        "level": 1,
+        "name": "迅之气息"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2805,
+        "count": 3,
+        "name": "金刚原珠"
+      },
+      {
+        "item_id": 2664,
+        "count": 1,
+        "name": "棘龙的天鳞"
+      }
+    ],
+    "unlock_monster_id": "em136_00",
+    "unlock_monster": "棘龙"
+  },
+  "10114": {
+    "id": 10114,
+    "name": "强弓珠【4】",
+    "sort_id": 424,
+    "rare": 10,
+    "icon_color": 8,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 28,
+        "level": 1,
+        "name": "解放弓的蓄力阶段"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 2,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2584,
+        "count": 3,
+        "name": "怪异化的骨"
+      },
+      {
+        "item_id": 2382,
+        "count": 1,
+        "name": "古龙的大宝玉"
+      }
+    ],
+    "unlock_item_id": 2584,
+    "unlock_item": "怪异化的骨"
+  },
+  "10115": {
+    "id": 10115,
+    "name": "点射珠Ⅱ【4】",
+    "sort_id": 990,
+    "rare": 8,
+    "icon_color": 2,
+    "base_price": 3000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 53,
+        "level": 2,
+        "name": "抑制偏移"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1037,
+        "count": 8,
+        "name": "琉璃原珠"
+      },
+      {
+        "item_id": 2008,
+        "count": 3,
+        "name": "雌火龙的厚翼膜"
+      }
+    ],
+    "unlock_progress": "大师任务 2星"
+  },
+  "10116": {
+    "id": 10116,
+    "name": "磐石珠【1】",
+    "sort_id": 314,
+    "rare": 10,
+    "icon_color": 5,
+    "base_price": 6000,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 10006,
+        "level": 1,
+        "name": "坚如磐石"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 2,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2811,
+        "count": 2,
+        "name": "金火龙的重壳"
+      },
+      {
+        "item_id": 2875,
+        "count": 1,
+        "name": "火龙的煌液"
+      }
+    ],
+    "unlock_monster_id": "em001_02",
+    "unlock_monster": "金火龙"
+  },
+  "10117": {
+    "id": 10117,
+    "name": "属击珠【2】",
+    "sort_id": 205,
+    "rare": 10,
+    "icon_color": 10,
+    "base_price": 6000,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 10018,
+        "level": 1,
+        "name": "弱点特效【属性】"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 4,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2875,
+        "count": 2,
+        "name": "火龙的煌液"
+      },
+      {
+        "item_id": 2899,
+        "count": 4,
+        "name": "怪异化的凶净血"
+      }
+    ],
+    "unlock_item_id": 2899,
+    "unlock_item": "怪异化的凶净血"
+  },
+  "10118": {
+    "id": 10118,
+    "name": "反攻珠【2】",
+    "sort_id": 203,
+    "rare": 10,
+    "icon_color": 7,
+    "base_price": 6000,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 10008,
+        "level": 1,
+        "name": "巧击"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 4,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2152,
+        "count": 2,
+        "name": "焰狐龙的特等锦鳍"
+      },
+      {
+        "item_id": 2154,
+        "count": 1,
+        "name": "纯白滑液"
+      },
+      {
+        "item_id": 2911,
+        "count": 4,
+        "name": "怪异化的凶刚角"
+      }
+    ],
+    "unlock_item_id": 2911,
+    "unlock_item": "怪异化的凶刚角"
+  },
+  "10119": {
+    "id": 10119,
+    "name": "背击珠【2】",
+    "sort_id": 204,
+    "rare": 10,
+    "icon_color": 7,
+    "base_price": 6000,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 10007,
+        "level": 1,
+        "name": "偷袭"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 4,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2821,
+        "count": 2,
+        "name": "月迅龙的透刃翼"
+      },
+      {
+        "item_id": 2897,
+        "count": 2,
+        "name": "怪异化的凶锐牙"
+      },
+      {
+        "item_id": 2898,
+        "count": 2,
+        "name": "怪异化的凶翼"
+      }
+    ],
+    "unlock_item_id": 2897,
+    "unlock_item": "怪异化的凶锐牙"
+  },
+  "10121": {
+    "id": 10121,
+    "name": "翻异珠【3】",
+    "sort_id": 152,
+    "rare": 10,
+    "icon_color": 9,
+    "base_price": 6000,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 10022,
+        "level": 1,
+        "name": "状态异常必定累积"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 4,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2941,
+        "count": 1,
+        "name": "霞龙的破怪玉"
+      },
+      {
+        "item_id": 2961,
+        "count": 4,
+        "name": "破怪的龙骨"
+      }
+    ],
+    "unlock_item_id": 2961,
+    "unlock_item": "破怪的龙骨"
+  },
+  "10122": {
+    "id": 10122,
+    "name": "讽御珠【2】",
+    "sort_id": 161,
+    "rare": 10,
+    "icon_color": 5,
+    "base_price": 6000,
+    "decoration_lv": 2,
+    "skills": [
+      {
+        "id": 10009,
+        "level": 1,
+        "name": "嘲讽防御"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 3,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2970,
+        "count": 2,
+        "name": "冰呪龙的刚爪"
+      },
+      {
+        "item_id": 2150,
+        "count": 2,
+        "name": "焰狐龙的白刚毛"
+      }
+    ],
+    "unlock_monster_id": "em124_00",
+    "unlock_monster": "冰呪龙"
+  },
+  "10123": {
+    "id": 10123,
+    "name": "刚心珠【1】",
+    "sort_id": 157,
+    "rare": 10,
+    "icon_color": 1,
+    "base_price": 6000,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 10023,
+        "level": 1,
+        "name": "刚心"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 3,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2827,
+        "count": 2,
+        "name": "棘茶龙的刚角"
+      },
+      {
+        "item_id": 2916,
+        "count": 4,
+        "name": "怪异化的凶浓血"
+      }
+    ],
+    "unlock_item_id": 2916,
+    "unlock_item": "怪异化的凶浓血"
+  },
+  "10129": {
+    "id": 10129,
+    "name": "转福珠Ⅱ【4】",
+    "sort_id": 260,
+    "rare": 10,
+    "icon_color": 9,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 10004,
+        "level": 2,
+        "name": "因祸得福"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 5,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2941,
+        "count": 1,
+        "name": "霞龙的破怪玉"
+      },
+      {
+        "item_id": 2117,
+        "count": 2,
+        "name": "黑蚀龙的暗黑翼"
+      },
+      {
+        "item_id": 2125,
+        "count": 1,
+        "name": "天廻龙的刚角"
+      }
+    ],
+    "unlock_monster_id": "em025_08",
+    "unlock_monster": "怪异克服霞龙"
+  },
+  "10130": {
+    "id": 10130,
+    "name": "霞皮珠【1】",
+    "sort_id": 259,
+    "rare": 10,
+    "icon_color": 9,
+    "base_price": 6000,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 99,
+        "level": 1,
+        "name": "霞皮的恩惠"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 2,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2941,
+        "count": 1,
+        "name": "霞龙的破怪玉"
+      },
+      {
+        "item_id": 2052,
+        "count": 3,
+        "name": "霞龙的特等皮"
+      },
+      {
+        "item_id": 2270,
+        "count": 1,
+        "name": "毒妖鸟的特大喉袋"
+      }
+    ],
+    "unlock_monster_id": "em025_08",
+    "unlock_monster": "怪异克服霞龙"
+  },
+  "10131": {
+    "id": 10131,
+    "name": "蓄幅珠Ⅱ【4】",
+    "sort_id": 206,
+    "rare": 10,
+    "icon_color": 10,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 10012,
+        "level": 2,
+        "name": "蓄力大师"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 3,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2824,
+        "count": 3,
+        "name": "棘茶龙的重壳"
+      },
+      {
+        "item_id": 2883,
+        "count": 3,
+        "name": "怪异化的凶血"
+      },
+      {
+        "item_id": 2882,
+        "count": 3,
+        "name": "怪异化的凶翼膜"
+      }
+    ],
+    "unlock_item_id": 2883,
+    "unlock_item": "怪异化的凶血"
+  },
+  "10132": {
+    "id": 10132,
+    "name": "精密珠Ⅱ【4】",
+    "sort_id": 201,
+    "rare": 10,
+    "icon_color": 2,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 10014,
+        "level": 2,
+        "name": "零件改造"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 5,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2211,
+        "count": 2,
+        "name": "妃蜘蛛的重钩棘"
+      },
+      {
+        "item_id": 2825,
+        "count": 2,
+        "name": "棘茶龙的秘棘"
+      },
+      {
+        "item_id": 2912,
+        "count": 6,
+        "name": "怪异化的凶重壳"
+      }
+    ],
+    "unlock_item_id": 2912,
+    "unlock_item": "怪异化的凶重壳"
+  },
+  "10133": {
+    "id": 10133,
+    "name": "气血珠【3】",
+    "sort_id": 200,
+    "rare": 10,
+    "icon_color": 7,
+    "base_price": 6000,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 10000,
+        "level": 1,
+        "name": "气血"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 5,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2301,
+        "count": 1,
+        "name": "爵银龙的红血玉"
+      },
+      {
+        "item_id": 2913,
+        "count": 4,
+        "name": "怪异化的凶刚爪"
+      }
+    ],
+    "unlock_item_id": 2913,
+    "unlock_item": "怪异化的凶刚爪"
+  },
+  "10134": {
+    "id": 10134,
+    "name": "磨锐珠Ⅱ【4】",
+    "sort_id": 207,
+    "rare": 10,
+    "icon_color": 4,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 10015,
+        "level": 2,
+        "name": "打磨术【锐】"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 3,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2129,
+        "count": 4,
+        "name": "千刃龙的闪裂爪"
+      },
+      {
+        "item_id": 2881,
+        "count": 6,
+        "name": "怪异化的凶牙"
+      }
+    ],
+    "unlock_item_id": 2881,
+    "unlock_item": "怪异化的凶牙"
+  },
+  "10135": {
+    "id": 10135,
+    "name": "钢壳珠【1】",
+    "sort_id": 209,
+    "rare": 10,
+    "icon_color": 2,
+    "base_price": 6000,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 100,
+        "level": 1,
+        "name": "钢壳的恩惠"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 2,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2942,
+        "count": 1,
+        "name": "钢龙的破怪玉"
+      },
+      {
+        "item_id": 2080,
+        "count": 2,
+        "name": "冰牙龙的重棘"
+      },
+      {
+        "item_id": 2046,
+        "count": 3,
+        "name": "钢龙的重壳"
+      }
+    ],
+    "unlock_monster_id": "em024_08",
+    "unlock_monster": "怪异克服钢龙"
+  },
+  "10136": {
+    "id": 10136,
+    "name": "炎鳞珠【1】",
+    "sort_id": 211,
+    "rare": 10,
+    "icon_color": 7,
+    "base_price": 6000,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 101,
+        "level": 1,
+        "name": "炎鳞的恩惠"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 2,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2943,
+        "count": 1,
+        "name": "炎王龙的破怪玉"
+      },
+      {
+        "item_id": 2217,
+        "count": 2,
+        "name": "炽妃蜘蛛的炫灯腹"
+      },
+      {
+        "item_id": 2057,
+        "count": 3,
+        "name": "炎王龙的重壳"
+      }
+    ],
+    "unlock_monster_id": "em027_08",
+    "unlock_monster": "怪异克服炎王龙"
+  },
+  "10137": {
+    "id": 10137,
+    "name": "合气珠Ⅱ【4】",
+    "sort_id": 212,
+    "rare": 10,
+    "icon_color": 8,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 10010,
+        "level": 2,
+        "name": "合气"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 6,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2959,
+        "count": 1,
+        "name": "背反的双逆鳞"
+      }
+    ],
+    "unlock_monster_id": "em071_05",
+    "unlock_monster": "混沌黑蚀龙"
+  },
+  "10138": {
+    "id": 10138,
+    "name": "龙气珠【4】",
+    "sort_id": 159,
+    "rare": 10,
+    "icon_color": 6,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 102,
+        "level": 1,
+        "name": "龙气活性"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 5,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2944,
+        "count": 1,
+        "name": "天彗龙极的破怪玉"
+      },
+      {
+        "item_id": 2239,
+        "count": 2,
+        "name": "风神龙的暴风袋"
+      }
+    ],
+    "unlock_monster_id": "em086_08",
+    "unlock_monster": "怪异克服天彗龙"
+  },
+  "10139": {
+    "id": 10139,
+    "name": "属击珠Ⅱ【4】",
+    "sort_id": 158,
+    "rare": 10,
+    "icon_color": 10,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 10018,
+        "level": 2,
+        "name": "弱点特效【属性】"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 6,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2944,
+        "count": 1,
+        "name": "天彗龙极的破怪玉"
+      },
+      {
+        "item_id": 2815,
+        "count": 2,
+        "name": "银火龙的刚翼"
+      },
+      {
+        "item_id": 2382,
+        "count": 1,
+        "name": "古龙的大宝玉"
+      }
+    ],
+    "unlock_monster_id": "em086_08",
+    "unlock_monster": "怪异克服天彗龙"
+  },
+  "10140": {
+    "id": 10140,
+    "name": "磐石珠Ⅲ【4】",
+    "sort_id": 156,
+    "rare": 10,
+    "icon_color": 5,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 10006,
+        "level": 3,
+        "name": "坚如磐石"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 4,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2812,
+        "count": 3,
+        "name": "金火龙的秘棘"
+      },
+      {
+        "item_id": 2915,
+        "count": 6,
+        "name": "怪异化的凶刚翼"
+      }
+    ],
+    "unlock_item_id": 2915,
+    "unlock_item": "怪异化的凶刚翼"
+  },
+  "10141": {
+    "id": 10141,
+    "name": "反攻珠Ⅱ【4】",
+    "sort_id": 153,
+    "rare": 10,
+    "icon_color": 7,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 10008,
+        "level": 2,
+        "name": "巧击"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 5,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2133,
+        "count": 1,
+        "name": "千刃龙的镜玉"
+      },
+      {
+        "item_id": 2916,
+        "count": 6,
+        "name": "怪异化的凶浓血"
+      }
+    ],
+    "unlock_item_id": 2916,
+    "unlock_item": "怪异化的凶浓血"
+  },
+  "10142": {
+    "id": 10142,
+    "name": "背击珠Ⅱ【4】",
+    "sort_id": 155,
+    "rare": 10,
+    "icon_color": 7,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 10007,
+        "level": 2,
+        "name": "偷袭"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 4,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2822,
+        "count": 1,
+        "name": "胧月碎片"
+      },
+      {
+        "item_id": 2914,
+        "count": 6,
+        "name": "怪异化的凶重牙"
+      }
+    ],
+    "unlock_item_id": 2914,
+    "unlock_item": "怪异化的凶重牙"
+  },
+  "10143": {
+    "id": 10143,
+    "name": "攻势珠Ⅱ【4】",
+    "sort_id": 154,
+    "rare": 10,
+    "icon_color": 7,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 10013,
+        "level": 2,
+        "name": "攻势"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 5,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2326,
+        "count": 2,
+        "name": "棘龙的秘棘"
+      },
+      {
+        "item_id": 2914,
+        "count": 3,
+        "name": "怪异化的凶重牙"
+      },
+      {
+        "item_id": 2915,
+        "count": 3,
+        "name": "怪异化的凶刚翼"
+      }
+    ],
+    "unlock_item_id": 2915,
+    "unlock_item": "怪异化的凶刚翼"
+  },
+  "10144": {
+    "id": 10144,
+    "name": "连击珠Ⅱ【4】",
+    "sort_id": 150,
+    "rare": 10,
+    "icon_color": 7,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 10019,
+        "level": 2,
+        "name": "连击"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 5,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2141,
+        "count": 1,
+        "name": "电龙的天鳞"
+      },
+      {
+        "item_id": 2962,
+        "count": 6,
+        "name": "破怪的硬龙骨"
+      }
+    ],
+    "unlock_item_id": 2962,
+    "unlock_item": "破怪的硬龙骨"
+  },
+  "10145": {
+    "id": 10145,
+    "name": "狂蚀珠【4】",
+    "sort_id": 105,
+    "rare": 10,
+    "icon_color": 9,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 10005,
+        "level": 1,
+        "name": "狂龙症【蚀】"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 5,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2945,
+        "count": 1,
+        "name": "天廻龙的破怪玉"
+      },
+      {
+        "item_id": 2160,
+        "count": 3,
+        "name": "赫赫的击枪翼"
+      }
+    ],
+    "unlock_monster_id": "em072_08",
+    "unlock_monster": "怪异克服天廻龙"
+  },
+  "10146": {
+    "id": 10146,
+    "name": "讽御珠Ⅱ【4】",
+    "sort_id": 104,
+    "rare": 10,
+    "icon_color": 5,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 10009,
+        "level": 2,
+        "name": "嘲讽防御"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 4,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2151,
+        "count": 2,
+        "name": "焰狐龙的刚爪"
+      },
+      {
+        "item_id": 2964,
+        "count": 6,
+        "name": "破怪的龙血"
+      }
+    ],
+    "unlock_item_id": 2964,
+    "unlock_item": "破怪的龙血"
+  },
+  "10147": {
+    "id": 10147,
+    "name": "刚心珠Ⅱ【3】",
+    "sort_id": 103,
+    "rare": 10,
+    "icon_color": 1,
+    "base_price": 6000,
+    "decoration_lv": 3,
+    "skills": [
+      {
+        "id": 10023,
+        "level": 2,
+        "name": "刚心"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 4,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2828,
+        "count": 1,
+        "name": "棘茶龙的天鳞"
+      },
+      {
+        "item_id": 2964,
+        "count": 6,
+        "name": "破怪的龙血"
+      }
+    ],
+    "unlock_item_id": 2964,
+    "unlock_item": "破怪的龙血"
+  },
+  "10148": {
+    "id": 10148,
+    "name": "翻异珠Ⅱ【4】",
+    "sort_id": 102,
+    "rare": 10,
+    "icon_color": 9,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 10022,
+        "level": 2,
+        "name": "状态异常必定累积"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2807,
+        "count": 5,
+        "name": "怪异原珠"
+      },
+      {
+        "item_id": 2941,
+        "count": 1,
+        "name": "霞龙的破怪玉"
+      },
+      {
+        "item_id": 2963,
+        "count": 6,
+        "name": "破怪的重龙骨"
+      }
+    ],
+    "unlock_item_id": 2963,
+    "unlock_item": "破怪的重龙骨"
+  },
+  "10149": {
+    "id": 10149,
+    "name": "气血珠Ⅱ【4】",
+    "sort_id": 76,
+    "rare": 10,
+    "icon_color": 7,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 10000,
+        "level": 2,
+        "name": "气血"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 6,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2045,
+        "count": 1,
+        "name": "金狮子心"
+      },
+      {
+        "item_id": 2990,
+        "count": 1,
+        "name": "爵银龙的丽牙"
+      }
+    ],
+    "unlock_monster_id": "em132_05",
+    "unlock_monster": "原初形态爵银龙"
+  },
+  "10150": {
+    "id": 10150,
+    "name": "缓冲珠【1】",
+    "sort_id": 109,
+    "rare": 10,
+    "icon_color": 2,
+    "base_price": 500,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 10034,
+        "level": 1,
+        "name": "缓冲"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 1035,
+        "count": 1,
+        "name": "水光原珠"
+      },
+      {
+        "item_id": 420,
+        "count": 1,
+        "name": "上等龙骨"
+      }
+    ],
+    "unlock_progress": "集会所任务 4星"
+  },
+  "10151": {
+    "id": 10151,
+    "name": "激励珠【1】",
+    "sort_id": 77,
+    "rare": 10,
+    "icon_color": 1,
+    "base_price": 6000,
+    "decoration_lv": 1,
+    "skills": [
+      {
+        "id": 10035,
+        "level": 1,
+        "name": "激励"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 4,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2988,
+        "count": 1,
+        "name": "原初的宠鳞"
+      },
+      {
+        "item_id": 2989,
+        "count": 1,
+        "name": "爵银龙的无垢壳"
+      }
+    ],
+    "unlock_monster_id": "em132_05",
+    "unlock_monster": "原初形态爵银龙"
+  },
+  "10152": {
+    "id": 10152,
+    "name": "刃鳞珠Ⅱ【4】",
+    "sort_id": 108,
+    "rare": 10,
+    "icon_color": 4,
+    "base_price": 6000,
+    "decoration_lv": 4,
+    "skills": [
+      {
+        "id": 10016,
+        "level": 2,
+        "name": "刃鳞打磨"
+      }
+    ],
+    "crafting_materials": [
+      {
+        "item_id": 2806,
+        "count": 5,
+        "name": "明王原珠"
+      },
+      {
+        "item_id": 2979,
+        "count": 3,
+        "name": "岚龙的重壳"
+      },
+      {
+        "item_id": 2133,
+        "count": 1,
+        "name": "千刃龙的镜玉"
+      }
+    ],
+    "unlock_monster_id": "em058_00",
+    "unlock_monster": "岚龙"
+  }
+}
