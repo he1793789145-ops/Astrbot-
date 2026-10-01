@@ -1,196 +1,272 @@
-# 怪物猎人配装器 - AstrBot 插件
+# 怪物猎人素材查询（AstrBot 插件）
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
-[![AstrBot](https://img.shields.io/badge/AstrBot-Plugin-green.svg)](https://github.com/AstrBotOpen/AstrBot)
+在群聊里查询《怪物猎人 崛起：曙光》素材的获取方式，以图片卡片回复。
 
-怪物猎人崛起：曙光自动配装器，支持通过 QQ 聊天进行自动配装。
+面向 OneBot v11（aiocqhttp）平台，已在 AstrBot 4.x 上开发。
 
-## 功能特性
+## 指令
 
-- 🎯 **智能配装**：基于搜索引擎，自动计算最优配装方案
-- 🖼️ **图片卡片**：Playwright 渲染精美配装卡片
-- 📊 **合并转发**：多套方案折叠发送，不刷屏
-- 🌈 **模板预设**：常用配装模板一键调用
-- ⚡ **快速响应**：异步执行，不阻塞 Bot 响应
+| 指令 | 说明 |
+|---|---|
+| `/mh 素材 <素材名>` | 查素材：哪只怪物、哪个部位/方式、概率、数量，以及哪些任务可刷 |
+| `/mh 怪物 <怪物名>` | 查某只怪物的完整掉落表（按下位/上位/大师分组） |
+| `/mh 任务 <任务名>` | 查任务的星级、地图、出场怪物与结算奖励 |
+| `/mh help` | 显示全部指令 |
+
+不带参数、或子命令拼错时会自动回帮助。
 
 ## 安装
 
-### 1. 克隆插件
+1. 把整个 `astrbot_plugin_mh_material` 目录放进 AstrBot 的插件目录：
+   `<AstrBot>/data/plugins/astrbot_plugin_mh_material`
+2. 装入依赖（AstrBot 主环境通常已带 Pillow ≥ 10）：
+   ```
+   pip install -r requirements.txt
+   ```
+3. 在 AstrBot 面板重载插件。
 
-```bash
-git clone https://github.com/yourusername/mhrice-astrbot-plugin.git
-cd mhrice-astrbot-plugin
-```
+## 数据
 
-### 2. 安装依赖
+插件不联网，只读一份本地快照，因此查询是纯内存操作、响应快且不受外部服务影响。
 
-```bash
-pip install -r requirements.txt
-playwright install chromium
-```
+### 快照位置
 
-### 3. 复制数据文件
+按以下顺序查找，先命中先赢：
 
-将原项目的 `data/build_data.json` 复制到插件的 `data/` 目录：
+1. 环境变量 `MH_MATERIAL_SNAPSHOT` 指定的路径
+2. `<AstrBot>/data/plugin_data/mh_material/snapshot.json` — **正式部署位置**
+3. 插件自带的 `data/plugin_data/mh_material/snapshot.json`
 
-```bash
-cp ../怪猎配装器/data/build_data.json data/
-```
+### 重新生成快照
 
-### 4. 配置管理员 QQ（可选）
-
-编辑 `config.yaml`，设置管理员 QQ：
-
-```yaml
-admin_qq: "你的QQ号"
-```
-
-### 5. 部署到 AstrBot
-
-将插件文件复制到 AstrBot 的插件目录：
-
-```bash
-# 假设 AstrBot 安装在 /opt/astrbot
-cp -r plugin.py config.yaml templates/ data/ /opt/astrbot/plugins/mhrice_builder/
-```
-
-## 使用
-
-### 基本配装
+源数据更新（游戏版本更新、或你补充了数据）后重跑提取脚本即可，不需要改插件代码：
 
 ```
-/配装 攻击=4 看破=3 弱点特效=3 超会心=3
+python tools/extract.py --source-dir "D:\下载" --out "<AstrBot>/data/plugin_data/mh_material/snapshot.json"
 ```
 
-### 自定义武器孔位
+可选参数：
 
 ```
-/配装 攻击=4 看破=3 --weapon 4,2,0
+--mhrice <路径>     指定 mhrice.json
+--items <路径>      指定 items.json
+--pretty            缩进输出，便于人工检查
 ```
 
-### 使用护石
+### 源数据
+
+`tools/extract.py` 从这两个文件提取：
+
+- `mhrice.json`（约 118 MB）— 游戏文件转储，提供掉落表、任务表、地图与中文名
+- `items.json` — 物品库，提供素材中文名（简中）
+
+采集点数据由 `tools/fetch_gathering.py` 单独抓取（见下），
+`armor.json` / `equip_skills.json` / `normal_decos.json` 目前**不使用**（属于配装数据），
+详见下面的「扩展」。
+
+### 采集点数据（来自 Kiranico）
+
+野外采集类素材（矿石、骨头、木桶等 47 种）的「地图 + 难度 + 概率」来自
+[mhrise.kiranico.com](https://mhrise.kiranico.com/zh/data/items?view=material)：
 
 ```
-/配装 攻击=4 看破=3 --charm 攻击=2 --charm-slots 3,1
+python tools/fetch_gathering.py --out "<AstrBot>/data/plugin_data/mh_material/snapshot.json"
+python tools/fetch_gathering.py --probe      # 只探测几个素材，验证页面结构
 ```
 
-### 返回更多方案
+脚本会并发抓取素材页（并发 3、每请求间隔 0.4s），原始结果缓存到
+`gathering_cache.json`，然后只把「地图 / 难度 / 数量 / 概率」这类事实字段并入快照。
+
+**注意**：该站点**没有许可证声明**，所以脚本只提取事实数据、不复制任何文案，
+也不做整站镜像。是否使用请自行判断；不用的话删掉快照里的 `gathering` 字段即可，
+插件会正常跳过该小节。
+
+实测覆盖：1199 个素材页全部抓取成功、0 失败，其中 47 个有采集点数据——
+其余素材是怪物掉落或任务报酬获取，本来就没有采集点。
+
+### 怪物栖息地图（来自 gamecat.fun）
+
+「这只怪/小动物去哪张图找」来自 [gamecat.fun（游猫网）](https://gamecat.fun/rise/zh/)：
 
 ```
-/配装 攻击=4 看破=3 --top 5
+python tools/fetch_habitats.py --out "<AstrBot>/data/plugin_data/mh_material/snapshot.json"
+python tools/fetch_habitats.py --probe        # 只验证解析
 ```
 
-### 防御优先排序
+用 MediaWiki API 批量取怪物页「怪物简介」段的 `出现场地：` 字段（112 只怪物分 3 批，
+每批 ≤50 个标题），只提取「怪物 → 地图名」映射，缓存到 `habitat_cache.json`。
+实测 105 只怪物有地图字段，写入快照 102 只。
+
+**为什么需要单独抓**：`mhrice.json` 里**小动物的地图数据是空的**
+（`small_monsters[].habitat_area` 恒为 `null`，
+`ecological.stage_info_list` 实测 37 只里只有 2 条有值），所以无法从源数据得到。
+
+**同样未声明许可证**，处理方式与采集点一致：只取事实字段、标注来源。
+
+## 数据可信度说明（重要）
+
+这份快照有三处已知的局限，都是**源数据本身**的限制，不是插件 bug。使用前请知悉：
+
+### 1. 地图 12 / 13 的名称是推断值
+
+源数据的 `map_name` 表只有官方编号 1~11 的名字，但大师任务里用到了 `12` 和 `13`。
+插件按「任务出场怪物」推断为 **12 = 密林、13 = 城塞高地**。
+
+**已获独立印证**：Kiranico 的采集点数据里直接出现「密林」「城塞高地」两张地图
+（例如「有苔藓的重土骨」只在密林、「受损的重古骨」只在城塞高地），与推断一致。
+不过源数据里仍没有 `12 → 密林` 的直接对照，快照里保留 `"origin": "inferred"` 标注，
+卡片底部也会显示「地图 … 为推断值」。
+
+### 2. 怪物名映射：已修正，但源数据本身有缺陷
+
+`mhrice.json` 里怪物名表与怪物数据之间**没有可靠的关联字段**。曾经用过的三种做法都错：
+
+| 做法 | 命中率（以掉落物名为基准） |
+|---|---|
+| 数组下标对齐 | 2/52 ❌ |
+| `monsters[i].id` 对齐 | 1/52 ❌ |
+| `enemy_type` 直接索引 | 37/52 |
+| **掉落物名前缀 + 显式编号映射**（现行） | **52/52 基础种，78/78 无重名** ✅ |
+
+现行做法是两条证据合成：
+
+1. **掉落物名前缀**（首选）：掉落素材名形如「爆鳞龙的爆腺」，取「」前的名字；
+   同一前缀出现 ≥2 次且是名字表已知怪物名才采信。这是游戏自带的一手数据。
+2. **显式编号映射**：基础区间 `enemy_type` 直接查 `monster_names`；
+   大师区间用 `MR_INDEX_BY_ENEMY_TYPE` 逐条列举（该区间偏移不规则，公式不成立）。
+
+两者冲突时以掉落物为准；两者同族时取更具体的那个，以保住变体名
+（`红莲爆鳞龙`、`怪异克服钢龙`、`霸主・火龙` 等）。
+
+**已知不确定项**：`em=131`（推出为「精灵鹿」）在源数据里没有掉落记录，
+无法用掉落物校验，可能与游戏内名称有出入。
+
+### 3. 部位破坏的部位名（部分可判定）
+
+`mhrice.json` 能给出「部位破坏报酬」的概率，但**部位名不在同一张表里**：
+
+* 部位身份在 `monster_lot.parts_break_list` 的 `RandomId`；
+* 名字在 `monsters[].collider_mapping.part_map`（游戏内日文，如 `頭部`/`尻尾`），
+  按 `RandomId` 取键（实测 40 只怪里 32 只完全吻合）；
+* 奖品数组是「部位组 × 每组若干项」的扁平数组，但**布局因怪而异**：
+  爵银龙 60 项 / 3 组 = 每组 20，伞鸟 60 项 / 4 组但间隔是 10。
+
+所以 `part_group_map()` 会把候选切法都试一遍，取**能覆盖最多部位组**的那个；
+一个都覆盖不全时不猜（宁可只说「部位破坏报酬」，也不给错部位）。
+
+实测：1027 条部位破坏记录里 **616 条（59%）能标出部位名**，分布为
+头部 184、尾巴 59、左脚 40、躯干 39、右翼 38……
+`ダメージアタリ`、`Group`、纯数字这类内部标记会被过滤掉，不会混进卡片。
+
+## 与最初需求的两点差异
+
+开发时按实测数据做了调整，这里明确记录，避免误解：
+
+1. **任务信息分两块呈现，来源不同。**
+   - **可刷任务**：通过「哪些任务会出场掉落该素材的怪物」推导，标注了具体打哪只怪。
+     这是怪物素材（如龙玉、天鳞）获得任务信息的主要途径。
+   - **任务报酬**：任务的结算奖励表（`quest_data_for_reward`）里直接产出的素材，
+     例如「妖辉石」完全没有怪物掉落来源，只在任务 315100 / 315108 的结算奖励里。
+     只覆盖一部分素材（本快照 978 种素材中有 181 种是**仅任务报酬**来源），有才显示。
+2. **活动任务与常驻任务混排**，活动任务带【活动】前缀标注（活动任务是限时轮换的）。
+
+## 疑难排查
+
+**查询没反应 / 回了「用法：/mh ...」**
+说明参数没传进 handler。本插件**不依赖** `@filter.command` 的注解式参数解析
+（AstrBot 的 `CommandFilter.init_handler_md` 直接读 `inspect.signature` 的注解，
+而 `from __future__ import annotations` 会把注解变成字符串，导致解析失效），
+改为在 handler 里解析消息文本。如果你改动 `main.py`，请保持这个方式。
+
+**「没有找到名为 XXX 的素材」**
+先确认名字写法（用 `/mh 素材 <名字的一部分>` 试模糊匹配，会列出候选）。
+若确实不在其中，说明该素材不在本快照覆盖范围内。
+
+**素材查到了但显示「暂无掉落记录」**
+这是数据事实，不是缺失：本插件的快照包含全部 1349 个素材/余料类物品，
+其中约 570 个**没有**怪物掉落或任务报酬记录——它们来自野外采集、交易，
+或源数据（`mhrice.json`）本身没有收录掉落表。当前版本不查询采集点。
+
+## 自测
+
+不依赖 AstrBot 运行时即可验证数据层与渲染层：
 
 ```
-/配装 攻击=4 看破=3 --sort defense
+python tools/selftest.py            # 生成卡片到 _selftest_out/
+python tools/selftest.py --no-png   # 只跑逻辑
 ```
 
-### 使用预设模板
+建议直接用 AstrBot 自带的解释器跑，能同时确认 Pillow 等依赖在位：
 
 ```
-/配装模板 物理输出
-/配装模板 生存向
-/配装模板 属性异常
+<AstrBot>/venv/Scripts/python.exe tools/selftest.py
 ```
 
-### 查看帮助
+另有一个针对 AstrBot 集成的回归测试（加载 AstrBot 真实源码模块，验证指令参数解析）：
 
 ```
-/帮助
+python tools/verify_astrbot_args.py --astrbot-dir "<AstrBot 源码目录>"
 ```
 
-## 命令参数
+它检查：handler 签名不依赖注解、真实 `CommandFilter` 能匹配指令、
+`extract_argument` 的各种消息形态、以及端到端 dispatch。
+改完 `main.py` 的指令处理建议跑一次。
 
-| 参数 | 说明 | 示例 |
-|---|---|---|
-| `技能=等级` | 目标技能（必填） | `攻击=4` |
-| `--weapon` | 武器孔位 | `--weapon 4,2,0` |
-| `--charm` | 护石技能 | `--charm 攻击=2` |
-| `--charm-slots` | 护石孔位 | `--charm-slots 3,1` |
-| `--top` | 返回 Top N | `--top 5` |
-| `--sort` | 排序方式 | `--sort defense` |
-| `--min-rarity` | 最低稀有度 | `--min-rarity 3` |
-| `--gender` | 性别 | `--gender male` |
-| `--exclude` | 排除装备 | `--exclude 炎火装束【头巾】` |
+## 导入约定（修改代码时注意）
 
-## 预设模板
+AstrBot 是把插件目录当作**包**加载的，因此插件内部的模块必须用**相对导入**：
 
-| 模板名 | 目标技能 | 武器孔位 |
-|---|---|---|
-| `物理输出` | 攻击=4, 看破=3, 弱点特效=3, 超会心=3 | 4,2,0 |
-| `生存向` | 体力强化=3, 防御强化=3, 耐性强化=3 | 0,0,0 |
-| `属性异常` | 属性强化=4, 属性攻击=4, 异常状态强化=3 | 2,2,0 |
+```python
+# 正确
+from .render import Card
+from . import commands as cmd
 
-## 错误处理
-
-- **参数错误**：直接回复用户，指出问题
-- **环境错误**：回复错误信息 + 通知管理员
-- **截图失败**：自动降级为纯文本卡片
-
-## 架构
-
-```
-mhrice-astrbot-plugin/
-├── plugin.py          # 单文件插件（核心逻辑）
-├── config.yaml        # 全局配置
-├── templates/
-│   └── build_card.html  # 配装卡片模板
-├── data/
-│   └── build_data.json  # 游戏数据
-├── requirements.txt   # 依赖
-├── README.md          # 使用说明
-└── LICENSE            # MIT 协议
+# 错误 —— 会报 No module named 'render'
+from render import Card
 ```
 
-## 开发
+`tools/` 下的脚本不受此约束（它们不被 AstrBot 加载），
+但 `tools/selftest.py` 仍按包导入插件，以保证测的就是实际部署的导入方式。
 
-### 调试
+## 扩展：配装 / 技能查询
 
-```bash
-# 本地测试引擎
-python -c "
-import sys
-sys.path.insert(0, '.')
-import engine as E
-from engine import SearchOptions, Optimizer
+命令表与数据层都为后续扩展留了位置：
 
-ds = E.load_dataset('data')
-opt = Optimizer(ds)
-res = opt.search(SearchOptions(
-    targets={E.name2id['攻击']: 4, E.name2id['看破']: 3},
-    top_n=3,
-))
-for b in res.builds:
-    print(E.fmt_build(b, ds['skills'], res.targets))
-"
+- `commands.py` 的 `COMMANDS` 列表是命令的单一事实源，`/mh help` 由它生成。
+  加 `/mh 配装` 只需追加一项，不必改命令解析或帮助文本。
+- `data.py` 按需加载表：快照里没有的表会被跳过，因此旧快照不会因为新表缺席而报错。
+- `tools/extract.py` 末尾有 `extract_armor()` / `extract_skills()` 的占位说明，
+  源数据 `armor.json`、`equip_skills.json`、`normal_decos.json` 已经具备。
+- `render.py` 的 `Card` / `Section` / `Line` 是通用的卡片原语，配装卡片可直接复用。
+
+## 渲染后端
+
+默认用 PIL 本地绘制，**不依赖 AstrBot 的文转图服务**（该服务默认关闭）。
+
+如果你在 AstrBot 面板里配好了 t2i，可以切到 HTML 后端走官方服务：
+
+```
+set MH_MATERIAL_RENDER=html
 ```
 
-### 截图测试
+渲染失败时会自动回退成纯文本，用户始终能看到内容。
 
-```bash
-python -c "
-from playwright.sync_api import sync_playwright
-with sync_playwright() as p:
-    browser = p.chromium.launch()
-    page = browser.new_page()
-    page.set_content(open('templates/build_card.html').read())
-    page.screenshot('test.png')
-    browser.close()
-"
+## 文件说明
+
 ```
-
-## 许可证
-
-MIT License - 开源免费使用
-
-## 贡献
-
-欢迎提交 Issue 和 Pull Request！
-
-## 致谢
-
-- [AstrBot](https://github.com/AstrBotOpen/AstrBot) - OneBot v11 机器人框架
-- [Playwright](https://playwright.dev/) - 浏览器自动化
-- 怪物猎人崛起：曙光 游戏数据
+astrbot_plugin_mh_material/
+├── main.py          插件入口：指令注册、快照加载、结果发送
+├── commands.py      子命令注册表、卡片构建、帮助生成
+├── data.py          快照加载、索引与查询
+├── render.py        卡片渲染（PIL / HTML 双后端）
+├── metadata.yaml    插件元数据
+├── requirements.txt 运行期依赖
+├── tools/
+│   ├── extract.py           离线提取：源数据 → 紧凑快照
+│   ├── fetch_gathering.py   抓取 Kiranico 采集点并并入快照
+│   ├── selftest.py          离线自测
+│   └── verify_astrbot_args.py  AstrBot 指令解析回归测试
+├── data/plugin_data/mh_material/
+│   ├── snapshot.json        快照
+│   └── gathering_cache.json 采集点抓取的原始缓存
+```

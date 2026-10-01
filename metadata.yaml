@@ -1,11 +1,9 @@
-# AstrBot 插件元数据
-name: "mhrice_astrbot"
-description: "怪物猎人配装器 - 通过 QQ 聊天进行自动配装"
-version: "1.0.0"
-author: "OpenSquilla"
-url: "https://github.com/yourusername/mhrice-astrbot-plugin"
-license: "MIT"
-requirements:
-  - "playwright>=1.40.0"
-  - "pyyaml>=6.0"
-  - "astrbot>=2024.1.0"
+name: astrbot_plugin_mh_material
+display_name: 怪物猎人素材查询
+desc: 群消息查询《怪物猎人 崛起：曙光》素材的获取方式，返回怪物、部位/方式、概率、数量、地图与可刷任务，以图片卡片呈现。
+version: 1.0.0
+author: user
+repo: ""
+astrbot_version: ">=4.0.0"
+support_platforms:
+  - aiocqhttp
